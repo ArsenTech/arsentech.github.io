@@ -1,4 +1,2 @@
 theme: jekyll-theme-hacker
 show_downloads: false
-plugins:
-  - jekyll-seo-tag
