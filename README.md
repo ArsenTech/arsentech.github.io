@@ -11,7 +11,7 @@ He Lives in Yerevan, Armenia, but it's Videos are English as of 2020 with Armeni
 <a href="https://scratch.mit.edu/users/ArsenTech/" target="_blank"><img src="https://img.shields.io/badge/-ArsenTech-1DD1A1?style=for-the-badge&logo=scratch&logoColor=orange"></a>
 <a href="https://www.reddit.com/user/ArsenTech" target="_blank"><img src="https://img.shields.io/badge/-ArsenTech-1DD1A1?style=for-the-badge&logo=reddit&logoColor=FF4500"></a>
 <a href="https://codepen.io/ArsenJS" target="_blank"><img src="https://img.shields.io/badge/-ArsenTech-1DD1A1?style=for-the-badge&logo=codepen&logoColor=black"></a>
-<img src="https://img.shields.io/badge/-ArsenTech%238160-1DD1A1?style=for-the-badge&logo=discord&logoColor=7289DA" />
+<a href="https://github.com/ArsenTech" target="_blank"><img src="https://img.shields.io/badge/-ArsenTech-1DD1A1?style=for-the-badge&amp;logo=github&amp;logoColor=24292e"></a>
 
 ---
 
