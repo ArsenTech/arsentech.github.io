@@ -8,6 +8,10 @@
 body{
     font-family: 'Sora', Arial;
 }
+::selection {
+    color: #020204;
+    background-color: #92e5a1;
+}
 #error{
 	min-height: 100vh;
 	background: linear-gradient(to left, #22b455, #1dd1a1);
