@@ -1,5 +1,5 @@
 # ArsenTech's Website
-Welcome to ArsenTech's Website. If You want to Report Bug, or Request, Write an Issue
+Welcome to ArsenTech's Website. If You want to Report Bug, or Feature Request, Write an Issue and we will be in touch with you very soon.
 
 ## Info
 
