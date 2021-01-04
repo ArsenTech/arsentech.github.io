@@ -1,5 +1,3 @@
-theme: jekyll-theme-hacker
-show_downloads: false
 collections:
   pages:
     output: true
