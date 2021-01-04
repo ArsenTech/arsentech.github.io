@@ -15,5 +15,5 @@ He Lives in Yerevan, Armenia, but it's Videos are English as of 2020 with Armeni
 
 ---
 
-> GitHub [@ArsenTech](https://github.com/ArsenTech) &nbsp;
+> GitHub [@ArsenTech](https://github.com/ArsenTech) &nbsp;&middot;&nbsp
 > [ArsenTech's Website](https://arsentech.github.io)
