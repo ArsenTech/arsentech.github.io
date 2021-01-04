@@ -1,8 +1,0 @@
-theme: jekyll-theme-hacker
-show-downloads: false
-collections:
-  pages:
-    output: true
-    permalink: /:title
-gems: 
-    - jekyll-sitemap
