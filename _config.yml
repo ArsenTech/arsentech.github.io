@@ -1,6 +1,0 @@
-collections:
-  pages:
-    output: true
-    permalink: /:title
-gems: 
-    - jekyll-sitemap
