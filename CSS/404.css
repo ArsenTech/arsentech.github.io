@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Sora', Arial;
+}
+#error{
+	min-height: 100vh;
+	background: linear-gradient(to left, #204829, #020204);
+}
+.error-container{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: whitesmoke;
+}
+.error-number{
+	font-size: 160px;
+	margin: 0;
+	font-weight: 900;
+	letter-spacing: 20px;
+	background: linear-gradient(90deg, #22b455 30%, #80ce87 55%) center;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+}
+.error-button{
+	text-decoration: none;
+	background: #22b455;
+	color: whitesmoke;
+	padding: 12px 24px;
+	border-radius: 25px;
+	font-size: 14px;
+	text-transform: uppercase;
+	transition: 0.5s linear;
+}
+.error-button:hover{
+	background: #80ce87;
+	color: #020204;
+}
+.error-text{
+	margin-bottom: 20px;
+}
+@media screen and (max-width: 600px){
+    body{
+    	overflow-x: hidden;
+    }
+    #error{
+	width: 103%;
+	height: 98vh; 
+    }
+    .error-title{
+	font-size: 25px;
+    }
+    .error-text{
+	font-size: 15px;
+    }
+}
