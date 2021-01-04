@@ -10,7 +10,7 @@ body{
 }
 #error{
 	min-height: 100vh;
-	background: linear-gradient(to left, #204829, #020204);
+	background: linear-gradient(to left, #22b455, #1dd1a1);
 }
 .error-container{
 	width: 100%;
@@ -25,9 +25,7 @@ body{
 	margin: 0;
 	font-weight: 900;
 	letter-spacing: 20px;
-	background: linear-gradient(90deg, #22b455 30%, #80ce87 55%) center;
-	-webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;
+	color: #f1f1f1
 }
 .error-button{
 	text-decoration: none;
@@ -47,17 +45,11 @@ body{
 	margin-bottom: 20px;
 }
 @media screen and (max-width: 600px){
-    body{
-    	overflow-x: hidden;
-    }
+    body{overflow-x: hidden;}
     #error{
 	width: 103%;
 	height: 98vh; 
     }
-    .error-title{
-	font-size: 25px;
-    }
-    .error-text{
-	font-size: 15px;
-    }
+    .error-title{font-size: 25px;}
+    .error-text{font-size: 15px;}
 }
