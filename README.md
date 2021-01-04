@@ -1,5 +1,5 @@
 # ArsenTech's Website
-Welcome to ArsenTech's Website
+Welcome to ArsenTech's Website. If You want to Report Bug, or Request, Write an Issue
 
 ## Info
 
