@@ -1,5 +1,5 @@
-# ArsenTech's Website (In Development)
-Sorry, but ArsenTech’s New Website is in Development. ArsenTech Creates one page website. Old Website is Deleted (sad)
+# ArsenTech's Website
+Welcome to ArsenTech's Website
 
 ## Info
 
