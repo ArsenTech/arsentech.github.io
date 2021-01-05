@@ -19,4 +19,4 @@ Please note we have a code of conduct, please follow it in all your interactions
 1. No Forking Without Permission
 2. No Edit
 3. Don't Copy Repo link without Permission
-4. Rules formed by Contributorare full and final decision
+4. Rules formed by Contributor are full and final decision
