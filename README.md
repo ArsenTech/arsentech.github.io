@@ -1,7 +1,7 @@
 # ArsenTech's Website
 Welcome to ArsenTech's Website. If You want to Report Bug, or Request Feature, Write an Issue and ArsenTech will be in touch with you soon.
 
-## Website Speed
+## Website Speed (Tested)
 PageSpeed Insights Score: <span style="color:green;">92</span><br>
 Pingdom Website Speed Test Score: ![B](https://user-images.githubusercontent.com/62609185/103669483-d2c65e80-4f91-11eb-9371-7c1116f4446c.PNG) 83
 
