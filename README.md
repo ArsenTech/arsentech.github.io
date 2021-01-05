@@ -1,8 +1,10 @@
 # ArsenTech's Website
 Welcome to ArsenTech's Website. If You want to Report Bug, or Request Feature, Write an Issue and ArsenTech will be in touch with you soon.
 
-## Info
+## Website Speed
+PageSpeed Insights Score: <span style="color:green">91</span><br><br>
 
+## Info
 Arsen, also known online as ArsenTech (formerly known as Arsen Technologies) is an Armenian Tech YouTuber known as his Tech Tutorials, Virus Test, Windows Experiments (formerly Powerpoint OS).
 He Lives in Yerevan, Armenia, but it's Videos are English as of 2020 with Armenian Subtitles. He is Working on Programming, Video Editing.
 
