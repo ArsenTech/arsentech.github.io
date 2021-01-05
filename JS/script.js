@@ -8,9 +8,7 @@ $(document).ready(function(){
       $(".goTop").fadeOut();
     }
   });
-
   $(".goTop").click(function(){scroll(0,0)});
-
   $('.menu-toggler').click(function(){
     $(this).toggleClass("active");
     $(".navbar-menu").toggleClass("active");
