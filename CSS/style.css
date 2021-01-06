@@ -82,7 +82,7 @@ html{scroll-behavior: smooth;}
 }
 .sticky .logo{background-image: url(../Files/arsentech-black.png);}
 .sticky .navbar-menu a{color: #020204;}
-.sticky .menu-toggler span{background: #020204;}
+.sticky .menu-toggler span{background-color: #020204;}
 /* Main */
 #home{
     height: 100vh;
