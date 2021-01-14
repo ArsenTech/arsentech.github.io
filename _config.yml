@@ -4,3 +4,4 @@ collections:
     permalink: /:title
 gems: 
     - jekyll-sitemap
+    - jekyll-seo-tag
