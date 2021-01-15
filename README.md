@@ -1,7 +1,7 @@
 <img src="https://user-images.githubusercontent.com/62609185/103670843-93990d00-4f93-11eb-8d40-8d400785b3d2.png" width="100">
 
 # ArsenTech's Website
-Welcome to ArsenTech's Website. If You want to Report Bug, or Request Feature, Write an Issue and ArsenTech will be in touch with you soon.
+Welcome to ArsenTech's Website. If You want to Report Bug, or Request Feature, Write an Issue (or Pull Request) and ArsenTech will be in touch with you soon.
 
 ## Website Speed (Tested)
 Google PageSpeed Insights Score: **94** on 📱, **99** on 🖥 <br>
@@ -22,4 +22,5 @@ He Lives in Yerevan, Armenia, but it's Videos are English as of 2020 with Armeni
 ---
 
 > GitHub [@ArsenTech](https://github.com/ArsenTech) &nbsp;&middot;&nbsp;
-> [ArsenTech's Website](https://arsentech.github.io)
+> [ArsenTech's Website](https://arsentech.github.io) &nbsp;&middot;&nbsp;
+> [Subreddit](https://www.reddit.com/r/ArsenTech/)
