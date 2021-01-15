@@ -43,7 +43,7 @@ body{
 }
 .error-button:hover, .errbtn:hover{background: #80ce87; color: #020204;}
 .error-text{margin-bottom: 20px;}
-.errbtn{border: none}
+.errbtn{border: none;}
 @media screen and (max-width: 600px){
     body{overflow-x: hidden;}
     #error{
