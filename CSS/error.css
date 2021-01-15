@@ -31,7 +31,7 @@ body{
 	letter-spacing: 20px;
 	color: #f1f1f1
 }
-.error-button{
+.error-button, .errbtn{
 	text-decoration: none;
 	background: #2b6638;
 	color: whitesmoke;
@@ -41,13 +41,9 @@ body{
 	text-transform: uppercase;
 	transition: 0.5s linear;
 }
-.error-button:hover{
-	background: #80ce87;
-	color: #020204;
-}
-.error-text{
-	margin-bottom: 20px;
-}
+.error-button:hover, .errbtn:hover{background: #80ce87; color: #020204;}
+.error-text{margin-bottom: 20px;}
+.errbtn{border: none}
 @media screen and (max-width: 600px){
     body{overflow-x: hidden;}
     #error{
