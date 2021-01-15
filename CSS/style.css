@@ -88,8 +88,8 @@ html{scroll-behavior: smooth;}
 #home .content h1::after{content: "ArsenTech"; animation: text 5s linear infinite;}
 @keyframes text{
     25%{content: "a Tech Youtuber";}
-    50%{content: "a Developer"}
-    75%{content: "a Photographer"}
+    50%{content: "a Developer";}
+    75%{content: "a Photographer";}
 }
 .sm a{
     color: #fff;
