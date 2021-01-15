@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/error.css">
+    <link rel="icon" href="Files/err.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap" rel="stylesheet">
+    <title>There was an Error 408</title>
+</head>
+<body>
+<div id="error">
+    <div class="error-container">
+	    <h2 class="error-title">Oops! Request Timeout.</h2>
+	    <h1 class="error-number">408</h1>
+	    <p class="error-text">There was an error. Your Browser didn't send a complete request in time</p>
+	    <button class="errbtn" onclick="window.history.back()">Go back</button>
+    </div>
+</div>
+    <noscript>
+       <style type="text/css">
+           #site-header, #site-main, #site-footer, #error {display:none;}
+           body{
+               min-height: 100vh;
+               text-align: center; 
+               background: linear-gradient(#22b455, #1dd1a1);
+               background-repeat: no-repeat
+           }
+           h1{color: #d9534f; margin: 10px;}
+          .err{width: 100%; position: absolute; top: 50%;}
+       </style>
+       <div class="err">
+               <h1>There was an error</h1>
+               <p>Sorry, but your browser doesn't support Javascript, Please enable JavaScript in your browser for best experience for website.</p>
+       </div>
+</noscript>
+</body>
+</html>
