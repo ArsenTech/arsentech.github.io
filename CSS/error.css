@@ -46,10 +46,7 @@ body{
 .errbtn{border: none;}
 @media screen and (max-width: 600px){
     body{overflow-x: hidden;}
-    #error{
-	width: 103%;
-	height: 98vh; 
-    }
+    #error{width: 103%;height: 98vh;}
     .error-title{font-size: 25px;}
     .error-text{font-size: 15px;}
 }
