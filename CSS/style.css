@@ -307,10 +307,7 @@ section.dark .section-title::after{border: 4px solid #353b48;}
     margin-left: auto;
     transition: 0.3s linear;
 }
-.contact-form .btn:hover{
-    background: #1dd1a1;
-    color: #020204;
-}
+.contact-form .btn:hover{background: #1dd1a1; color: #020204;}
 #error{
    margin-top: 20px;
    margin-bottom: 15px;
