@@ -4,7 +4,7 @@
 Welcome to ArsenTech's Website. If You want to Report Bug, or Request Feature, Write an Issue (or Pull Request) and ArsenTech will be in touch with you soon.
 
 ## Website Speed (Tested)
-Google PageSpeed Insights Score: **94** on 📱, **99** on 🖥 <br>
+Google PageSpeed Insights Score: **~94** (93) on 📱, **99** on 🖥 <br>
 Pingdom Website Speed Test Score: ![B](https://user-images.githubusercontent.com/62609185/103669483-d2c65e80-4f91-11eb-9371-7c1116f4446c.PNG) **83** <br>
 GTmetrix Score: <span></span><img src="https://user-images.githubusercontent.com/62609185/103670287-d27a9300-4f92-11eb-94dd-c46532b8f921.PNG" width="32" /><span></span> (Performance: **100%**, Structure: **97%**)
 
