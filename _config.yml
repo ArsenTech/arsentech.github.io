@@ -2,5 +2,7 @@ collections:
   my_collection:
     output: true
     permalink: /:title
+compress_html:
+    comments: all    
 gems:
   - jekyll-sitemap
