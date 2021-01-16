@@ -1,2 +1,6 @@
+collections:
+  my_collection:
+    output: true
+    permalink: /:title
 gems:
   - jekyll-sitemap
