@@ -1,8 +1,10 @@
-collections:
-  my_collection:
-    output: true
-    permalink: /:title
 compress_html:
-    comments: all    
+    comments: all 
+    
+exclude:
+  - CONTRIBUTING.md
+  - LICENSE
+  - README.md
+  
 gems:
   - jekyll-sitemap
