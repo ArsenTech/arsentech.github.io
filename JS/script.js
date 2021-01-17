@@ -9,7 +9,7 @@ $(document).ready(function(){
     }
   });
   
-  $(".goTop").click(function(){scroll(0,0)});
+  $(".goTop").click(function(){$('html, body').animate({scrollTop:0}, '300')});
   
   $('.menu-toggler').click(function(){
     $(this).toggleClass("active");
