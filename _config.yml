@@ -7,6 +7,5 @@ exclude:
   - README.md
   
 gems:
-  - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
