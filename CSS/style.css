@@ -13,22 +13,9 @@ html{scroll-behavior: smooth;}
     z-index: 999;
     transition: 0.3s linear;
 }
-.inner-width{
-    max-width: 1300px;
-    margin: auto;
-    padding: 0 40px;
-}
-.navbar .inner-width{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.logo{
-    width: 150px;
-    height: 32px;
-    background-image: url(../Files/arsentech.png);
-    background-size: contain;
-}
+.inner-width{max-width: 1300px;margin: auto;padding: 0 40px;}
+.navbar .inner-width{display: flex;align-items: center;justify-content: space-between;}
+.logo{width: 150px;height: 32px;background-image: url(../Files/arsentech.png);background-size: contain;}
 .menu-toggler{
     background: none;
     width: 30px;
@@ -49,33 +36,15 @@ html{scroll-behavior: smooth;}
     position: relative;
     transition: .3s linear;
 }
-.navbar-menu a{
-    color: #fff;
-    font-size: 15px;
-    font-weight: 500;
-    margin-left: 30px;
-    transition: 0.3s linear;
-}
+.navbar-menu a{color: #fff;font-size: 15px;font-weight: 500;margin-left: 30px;transition: 0.3s linear;}
 .navbar-menu a:hover{color: #1dd1a1 !important;}
 .sticky{background: #f1f1f1; padding: 18px 0;}
 .sticky .logo{background-image: url(../Files/arsentech-black.png);}
 .sticky .navbar-menu a{color: #020204;}
 .sticky .menu-toggler span{background-color: #020204;}
 .sticky .menu-toggler{color: #020204;}
-#home{
-    height: 100vh;
-    min-height: 500px;
-    background: linear-gradient(-45deg, #22b455, #1dd1a1) no-repeat center;
-    background-attachment: fixed;
-    transition: 1s all;
-}
-#home .inner-width{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    text-align: center;
-}
+#home{height: 100vh;min-height: 500px;background: linear-gradient(-45deg, #22b455, #1dd1a1) no-repeat center;background-attachment: fixed;transition: 1s all;}
+#home .inner-width{display: flex;align-items: center;justify-content: center;height: 100%;text-align: center;}
 #home .content{width: 100%; color: #fff;}
 #home .content h1{font-size: 60px; margin-bottom: 60px;}
 #home .content h1::after{content: "ArsenTech"; animation: text 5s linear infinite;}
@@ -84,12 +53,7 @@ html{scroll-behavior: smooth;}
     50%{content: "a Developer";}
     75%{content: "a Photographer";}
 }
-.sm a{
-    color: #fff;
-    font-size: 26px;
-    margin: 0 10px;
-    transition: 0.3s linear;
-}
+.sm a{color: #fff;font-size: 26px;margin: 0 10px;transition: 0.3s linear;}
 .sm a:hover{color: #a2ffb3;}
 #home .buttons{margin-top: 60px;}
 #home .buttons a{
@@ -133,22 +97,10 @@ section{padding: 100px 0;background: white;}
     left: calc(50% - 12px);
     bottom: -7px;
 }
-.about-content{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.about-pic{
-    width: 200px;
-    border-radius: 50%;
-    margin-right: 100px;
-}
+.about-content{display: flex;align-items: center;flex-wrap: wrap;}
+.about-pic{width: 200px;border-radius: 50%;margin-right: 100px;}
 .about-text{flex: 1;}
-.about-text h3{
-    margin: 10px 0;
-    color: #444;
-    font-size: 16px;
-}
+.about-text h3{margin: 10px 0;color: #444;font-size: 16px;}
 .about-text h3 span:nth-child(1)::after, .about-text h3 span:nth-child(2)::after{
     content: "";
     width: 6px;
@@ -158,33 +110,12 @@ section{padding: 100px 0;background: white;}
     border-radius: 50%;
     margin: 0 14px;
 }
-.about-text p{
-    font-size: 15px;
-    text-align: justify;
-    line-height: 25px;
-    margin-top: 20px;
-}
-.skills{
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+.about-text p{font-size: 15px;text-align: justify;line-height: 25px;margin-top: 20px;}
+.skills{margin-top: 40px;display: flex;justify-content: space-between;flex-wrap: wrap;}
 .skill{width: calc(50% - 20px); margin: 15px 0;}
 .skill-info{display: flex; justify-content: space-between;}
-.skill-bar{
-    height: 3px;
-    background: #ddd;
-    margin-top: 14px;
-    position: relative;
-}
-.skill-bar::after{
-    content: "";
-    position: absolute;
-    height: 6px;
-    background-color: #1dd1a1;
-    bottom: 0;
-}
+.skill-bar{height: 3px;background: #ddd;margin-top: 14px;position: relative;}
+.skill-bar::after{content: "";position: absolute;height: 6px;background-color: #1dd1a1;bottom: 0;}
 .html::after{width: 90%;}
 .css::after{width: 90%;}
 .js::after{width: 60%;}
@@ -193,11 +124,7 @@ section.dark{background-color: #353b48;}
 section.dark .section-title{color: #f1f1f1;}
 section.dark .section-title::before{background-color: #f1f1f1;}
 section.dark .section-title::after{border: 4px solid #353b48;}
-.services{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
+.services{display: flex;justify-content: space-between;flex-wrap: wrap;}
 .service{
     width: calc(33% - 20px);
     text-align: center;
@@ -209,20 +136,11 @@ section.dark .section-title::after{border: 4px solid #353b48;}
     cursor: pointer;
     transition: 0.5s linear;
 }
-.service .icon{
-    color: #22b455;
-    font-size: 45px;
-    margin-bottom: 20px;
-    transition: 0.5s linear;
-}
+.service .icon{color: #22b455;font-size: 45px;margin-bottom: 20px;transition: 0.5s linear;}
 .service h4{font-size: 15px; margin-bottom: 5px;}
 .service:hover{background-color: #22b455; color: white;}
 .service:hover .icon{color: white;}
-.works, .contact-info, .contact-form{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+.works, .contact-info, .contact-form{display: flex;justify-content: center;flex-wrap: wrap;}
 .work{
     width: calc(33% - 10px);
     overflow: hidden;
@@ -231,11 +149,7 @@ section.dark .section-title::after{border: 4px solid #353b48;}
     cursor: pointer;
     position: relative;
 }
-.work img{
-    width: 100%;
-    height: 100%;
-    transition: 0.4s linear;
-}
+.work img{width: 100%;height: 100%;transition: 0.4s linear;}
 .work::before{
     content: "";
     position: absolute;
@@ -311,13 +225,7 @@ section.dark .section-title::after{border: 4px solid #353b48;}
    font-size: 16px;
    transition: 0.5s ease;
 }
-#site-footer{
-    width: 100%;
-    background: linear-gradient(-45deg, #1dd1a1, #22b455);
-    color: #fff;
-    padding: 80px 0;
-    text-align: center;
-}
+#site-footer{width: 100%;background: linear-gradient(-45deg, #1dd1a1, #22b455);color: #fff;padding: 80px 0;text-align: center;}
 .copyright{margin-bottom: 20px; font-size: 15px;}
 .copyright a{font-size: 16px;color: #25ecb7;font-weight: 500; transition: 0.3s linear;}
 .copyright a:hover{color: #bdffed;}
@@ -350,11 +258,7 @@ section.dark .section-title::after{border: 4px solid #353b48;}
         padding: 80px 50px;
         transition: 0.3s linear;
     }
-    .navbar-menu a{
-        display: block;
-        font-size: 30px;
-        margin: 30px 0;   
-    }
+    .navbar-menu a{display: block;font-size: 30px;margin: 30px 0;   }
     .sticky .navbar-menu{background-color: #f1f1f1;}
     .sticky .menu-toggler.span{background-color: #020204;}
     .navbar-menu.active{ right: 0; }
