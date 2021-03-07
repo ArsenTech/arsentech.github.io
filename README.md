@@ -3,9 +3,9 @@
 # ArsenTech's Website
 Welcome to ArsenTech's Website. If You want to Report Bug, or Request Feature, Write an Issue (or Pull Request) and ArsenTech will be in touch with you soon.
 ## Website Speed (Tested)
-Google PageSpeed Insights Score: **94** on 📱, **99** on 🖥 <br>
-Pingdom Website Speed Test Score: ![B](https://user-images.githubusercontent.com/62609185/103669483-d2c65e80-4f91-11eb-9371-7c1116f4446c.PNG) **83** <br>
-GTmetrix Score: <span></span><img src="https://user-images.githubusercontent.com/62609185/103670287-d27a9300-4f92-11eb-94dd-c46532b8f921.PNG" width="32" /><span></span> (Performance: **100%**, Structure: **97%**)
+Google PageSpeed Insights Score: **93** on 📱, **99** on 🖥 <br>
+Pingdom Website Speed Test Score: ![A](https://user-images.githubusercontent.com/62609185/105687639-20d7dd80-5f12-11eb-9385-a217c3103eb2.PNG) **99** <br>
+GTmetrix Score: <span></span><img src="https://user-images.githubusercontent.com/62609185/103670287-d27a9300-4f92-11eb-94dd-c46532b8f921.PNG" width="32" /><span></span> (Performance: **100%**, Structure: **98%**)
 ## Info
 Arsen, also known online as ArsenTech (formerly known as Arsen Technologies) is an Armenian Tech YouTuber known as his Tech Tutorials, Virus Test, Windows Experiments (formerly Powerpoint OS).
 He Lives in Yerevan, Armenia, but it's Videos are English as of 2020 with Armenian Subtitles. He is Working on Programming, Video Editing.
