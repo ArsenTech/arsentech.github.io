@@ -8,11 +8,10 @@ $(document).ready(function(){
       $(".goTop").fadeOut();
     }
   });
-  
   $(".goTop").click(function(){$('html, body').animate({scrollTop:0}, 300)});
-  
   $('.menu-toggler').click(function(){
     $(this).toggleClass("active");
     $(".navbar-menu").toggleClass("active");
   });
+  document.getElementById("yearCount").innerHTML = new Date().getFullYear()
 });
