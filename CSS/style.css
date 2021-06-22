@@ -118,8 +118,8 @@ section{padding: 100px 0;background: white;}
 .skill-bar::after{content: "";position: absolute;height: 6px;background-color: #1dd1a1;bottom: 0;}
 .html::after{width: 90%;}
 .css::after{width: 90%;}
-.js::after{width: 60%;}
-.jquery::after{width: 55%;}
+.js::after{width: 70%;}
+.jquery::after{width: 65%;}
 section.dark{background-color: #353b48;}
 section.dark .section-title{color: #f1f1f1;}
 section.dark .section-title::before{background-color: #f1f1f1;}
