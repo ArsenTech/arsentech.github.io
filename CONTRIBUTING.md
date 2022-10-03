@@ -15,8 +15,8 @@ Please note we have a code of conduct, please follow it in all your interactions
    Pull Request would represent.
 4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you 
    do not have permission to do that, you may request the second reviewer to merge it for you.
+
 ## Rules
 1. No Forking Without Permission
 2. No Edit
-3. Don't Copy Repository link without Permission
-4. Rules formed by Contributor are full and final decision
+3. Rules formed by Contributor are full and final decision
