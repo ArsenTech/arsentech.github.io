@@ -1,7 +1,7 @@
 <img src="https://user-images.githubusercontent.com/62609185/103670843-93990d00-4f93-11eb-8d40-8d400785b3d2.png" width="100">
 
 # ArsenTech's Website
-Welcome to ArsenTech's Website. If You want to Report Bug, or Request Feature, Write an Issue (or Pull Request) and ArsenTech will be in touch with you soon.
+Welcome to ArsenTech's Website. If You want to Report Bug, or Request Feature, Write an Issue and ArsenTech will be in touch with you soon.
 ## Website Speed (Tested)
 Google PageSpeed Insights Score: **100** on 📱, **100** on 🖥 <br>
 Pingdom Website Speed Test Score: ![B](https://user-images.githubusercontent.com/62609185/110242063-acab4380-7f6d-11eb-897f-804ca7d1cc77.PNG) **83** <br>
