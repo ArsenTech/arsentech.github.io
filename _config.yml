@@ -5,6 +5,7 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - README.md
+  - CODE_OF_CONDUCT.md
   
 gems:
   - jekyll-sitemap
