@@ -27,7 +27,7 @@ html {scroll-behavior: smooth;}
 #home .content {width: 100%;color: #fff}
 #home .content h1 {font-size: 60px;margin-bottom: 60px;}
 #home .content h1::after {content: "ArsenTech";animation: text 5s linear infinite;}
-@keyframes text {25% {content: "a Tech Youtuber";}50% {content: "a Developer";}75% {content: "a Photographer";}}
+@keyframes text {25% {content: "a Tech Youtuber";}50% {content: "a Developer";}75% {content: "a Programmer (Coder)";}}
 .sm a {color: #fff;font-size: 26px;margin: 0 10px;transition: .3s linear;}
 .sm a:hover {color: #a2ffb3;}
 #home .buttons {margin-top: 60px;}
