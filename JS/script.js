@@ -8,7 +8,7 @@ function lazyCss(e) {
 }
 function lazyJS(e){
      const t = document.createElement("script");
-     t.src = e, document.body.appendChild(t)
+     t.src = e, t.defer = true, document.body.appendChild(t)
 }
 lazyCss("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap")
 lazyCss("CSS/lightbox.min.css")
