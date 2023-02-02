@@ -21,10 +21,7 @@ function handleScroll(scrlY, pageY){
      scrlY < this.scrollY ? navbar.classList.add("sticky") : navbar.classList.remove("sticky"); 
      window.pageYOffset > pageY ? gotop.classList.add("active") : gotop.classList.remove("active")
 }
-function toggleActive(){
-     toggler.classList.toggle("active"); 
-     navMenu.classList.toggle("active");
-}
+function toggleActive(){toggler.classList.toggle("active"); navMenu.classList.toggle("active");}
 function toggleMode(){
      document.body.classList.toggle("dark");
      if(!document.body.classList.contains("dark")){
@@ -35,10 +32,7 @@ function toggleMode(){
           localStorage.setItem("arsentech-theme", "dark");
      }
 }
-function closeMenu(){
-     toggler.classList.remove("active"); 
-     navMenu.classList.remove("active");
-}
+function closeMenu(){toggler.classList.remove("active"); navMenu.classList.remove("active");}
 const redirectTo = (link) => document.location=link;
 lazyCss("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap");
 lazyCss("CSS/lightbox.min.css");
