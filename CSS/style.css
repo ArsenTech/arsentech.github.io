@@ -19,17 +19,17 @@ html {scroll-behavior: smooth;position: relative;}
 .navbar {position: fixed;background: 0 0;width: 100%;padding: 30px 0;top: 0;z-index: 999;transition: .3s ease-in-out;}
 .inner-width {max-width: 1300px;margin: auto;padding: 0 40px;}
 .navbar .inner-width {display: flex;align-items: center;justify-content: space-between;}
-.logo {width: 150px;height: 32px;background-image: url(../Files/arsentech.png);background-size: contain;}
+.logo {width: 150px;height: 32px;background-image: url(/Files/arsentech-dark.svg);background-size: contain;}
 .menu-toggler {background: 0 0;width: 30px;border: none;cursor: pointer;position: relative;outline: 0;z-index: 999;display: none;color: #fff;font-size: 25px;}
 .menu-toggler span {display: block;height: 3px;background-color: #fff;margin: 6px 0;position: relative;transition: .3s ease;}
 .navbar-menu a {color: #fff;font-size: 15px;font-weight: 500;margin-left: 30px;transition: .3s ease;}
 .navbar-menu a:hover {color: #1dd1a1 !important;}
 .sticky {background: #f1f1f1;padding: 18px 0;}
-.sticky .logo {background-image: url(../Files/arsentech-black.png);}
+.sticky .logo {background-image: url(/Files/arsentech-light.svg);}
 .sticky .navbar-menu a {color: #020204;}
 .sticky .menu-toggler span {background-color: #020204;}
 .sticky .menu-toggler {color: #020204;}
-#home {height: 100vh;min-height: 500px;background: linear-gradient(#20482945,#1dd1a145), url(../Files/bg.jpg) no-repeat center;background-attachment: fixed;background-size: cover;transition: 1s all;}
+#home {height: 100vh;min-height: 500px;background: linear-gradient(#20482945,#1dd1a188), url(../Files/bg.jpg) no-repeat center;background-attachment: fixed;background-size: cover;transition: 1s all;}
 #home .inner-width {display: flex;align-items: center;justify-content: center;height: 100%;text-align: center;}
 #home .content {width: 100%;color: #fff}
 #home .content h1 {font-size: 60px;margin-bottom: 60px;}
@@ -57,8 +57,8 @@ section {padding: 100px 0;background: #fff;}
 .skill-bar::after {content: "";position: absolute;height: 6px;background-color: #1dd1a1;bottom: 0;}
 .html::after {width: 90%;}
 .css::after {width: 90%;}
-.js::after {width: 85%;}
-.react::after {width: 85%;}
+.js::after {width: 90%;}
+.react::after {width: 90%;}
 section.alt {background-color: #f1f1f1;}
 section.alt .section-title {color: #222;}
 section.alt .section-title::before {background-color: #353b48;}
