@@ -3,7 +3,7 @@
 .dark .menu-toggler span {background-color: #fff;}
 .dark .navbar-menu a {color: #fff;}
 .dark .navbar-menu a:hover {color: #1dd1a1 !important;}
-.dark #icon{color: white;}
+.dark #icon{filter: invert(1);}
 .dark .sticky {background: #353b48;}
 .dark .sticky .logo {background-image: url(/Files/arsentech-dark.svg);}
 .dark .sticky .navbar-menu a {color: #f1f1f1;}
