@@ -9,6 +9,11 @@ GTmetrix Score: <span></span><img src="https://user-images.githubusercontent.com
 ## Info
 Arsen, also known online as ArsenTech (formerly known as Arsen Technologies) is an Armenian Tech YouTuber.
 He Lives in Yerevan, Armenia, but it's Videos are English as of 2020. He is Working on Programming, Video Editing.
+## Versions:
+- 0.5: [Prototype Version](https://github.com/ArsenTech/prototype-website)
+- 1.0: First Release
+- 1.5: Added Downloads Page
+- 2.0: **New Look**
 ## Follow
 <a href="https://www.youtube.com/channel/UCrtH0g6NE8tW5VIEgDySYtg" target="_blank"><img src="https://img.shields.io/badge/ArsenTech%20-%23FF0000.svg?&style=for-the-badge&logo=YouTube&logoColor=white"/></a>
 <a href="https://scratch.mit.edu/users/ArsenTech/" target="_blank"><img src="https://img.shields.io/badge/-ArsenTech-orange?style=for-the-badge&logo=scratch&logoColor=white"></a>
