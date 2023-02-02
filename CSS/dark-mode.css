@@ -1,3 +1,35 @@
-:root{
-     --dark: #353b48
+.dark{color: #f1f1f1;}
+.dark .logo {background-image: url(/Files/arsentech-dark.svg);background-size: contain;}
+.dark .menu-toggler span {background-color: #fff;}
+.dark .navbar-menu a {color: #fff;}
+.dark .navbar-menu a:hover {color: #1dd1a1 !important;}
+.dark .sticky {background: #353b48;}
+.dark .sticky .logo {background-image: url(/Files/arsentech-dark.svg);}
+.dark .sticky .navbar-menu a {color: #f1f1f1;}
+.dark .sticky .menu-toggler span {background-color: #f1f1f1;}
+.dark .sticky .menu-toggler {color: #f1f1f1;}
+.dark section {background: #353b48;}
+.dark .section-title {color: #f1f1f1;}
+.dark .section-title::before {background: #f1f1f1;}
+.dark .section-title::after {background-color: #1dd1a1;border-color: #353b48;}
+.dark .about-text h3 {color: #aaa;}
+.dark .about-text h3 span:nth-child(1)::after, .dark .about-text h3 span:nth-child(2)::after {background: #aaa;}
+.dark .skill-bar {background: #888;}
+.dark .skill-bar::after {background-color: #1dd1a1;}
+.dark section.alt {background-color: #2f343f;}
+.dark section.alt .section-title::after {border-color: #2f343f;}
+.dark .service {border-color: #1dd1a1;color: #1dd1a1;}
+.dark .service .icon {color: #1dd1a1;}
+.dark .service:hover {background-color: #1dd1a1;color: #2f343f;}
+.dark .service:hover .icon {color: #2f343f;}
+.dark .contact-info .item {color: #2f343f;background-color: #f1f1f1;}
+.dark .contact-info .item:hover {background-color: #1dd1a1;}
+.dark .contact-form input, .dark .contact-form textarea {background-color: #f1f1f1;color: #2f343f;}
+.dark .contact-form input::placeholder, .dark .contact-form textarea::placeholder {color: #666}
+.dark .contact-form .btn {background-color: #2f343f;color: #1dd1a1;}
+.dark .contact-form .btn:hover {background: #1dd1a1;color: #2f343f;}
+@media screen and (max-width:980px){
+     .dark .navbar-menu{background-color:#2f343f;}
+     .sticky .navbar-menu{background-color:#353b48;}
+     .sticky .menu-toggler.span{background-color:#f1f1f1;}
 }
