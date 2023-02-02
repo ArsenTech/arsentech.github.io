@@ -18,5 +18,8 @@ lazyCss("CSS/dark-mode.css");
 lazyJS("JS/lightbox-plus-jquery.min.js");
 document.getElementById("yearCount").innerHTML = d.getFullYear();
 window.addEventListener("scroll", () => {20 < this.scrollY ? navbar.classList.add("sticky") : navbar.classList.remove("sticky"); window.pageYOffset > 100 ? gotop.classList.add("active") : gotop.classList.remove("active")});
-gotop.addEventListener("click", () => window.scrollTo({top: 0, left: 0,behavior: "smooth"}));
-toggler.addEventListener("click", () => {toggler.classList.toggle( "active" ); navMenu.classList.toggle( "active" )});
+gotop.addEventListener("click", ()=>window.scrollTo({top: 0, left: 0,behavior: "smooth"}));
+toggler.addEventListener("click", ()=>{
+     toggler.classList.toggle("active"); 
+     navMenu.classList.toggle("active");
+});
