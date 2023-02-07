@@ -74,9 +74,10 @@ section.alt .section-title::after {border: 4px solid #f1f1f1;}
 .work {width: calc(33% - 10px);overflow: hidden;border-radius: 6px;margin: 5px;cursor: pointer;position: relative;}
 .work img {width: 100%;height: 100%;transition: .4s linear;}
 .work::before {content: "";position: absolute;width: 100%;height: 100%;z-index: 1;background: #22b45580;transition: .4s linear;opacity: 0;transform: scale(0);}
-.work .info {position: absolute;z-index: 2;bottom: 40px;left: 40px;color: #fff;transition: .2s linear;opacity: 0;}
+.work .info {position: absolute;z-index: 2;bottom: 15px;left: 25px;color: #fff;transition: .2s linear;opacity: 0;}
 .work:hover img {transform: scale(1.6) rotate(25deg);}
 .work:hover .info,.work:hover::before {opacity: 1;transform: scale(1);}
+.work .info .attr{font-size: 11.5px;margin: 10px 0;}
 .contact-info .item {width: calc(33% - 17px);height: 160px;color: #f1f1f1;background-color: #353b48;text-align: center;border-radius: 4px;cursor: pointer;transition: .3s ease-in-out;margin: 0 10px;}
 .contact-info .contact-icon {display: block;font-size: 50px;line-height: 120px;height: 100px;margin: 0 auto;margin-top: 10px;}
 .contact-info .item:hover {background-color: #1dd1a1;}

@@ -35,9 +35,7 @@ function toggleMode(){
 function closeMenu(){toggler.classList.remove("active"); navMenu.classList.remove("active");}
 const redirectTo = (link) => document.location=link;
 lazyCss("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap");
-lazyCss("CSS/lightbox.min.css");
-lazyCss("CSS/dark-mode.css");
-lazyJS("JS/lightbox-plus-jquery.min.js");
+lazyCss("CSS/dark-mode.css");lazyJS("JS/fslightbox.js");
 document.getElementById("yearCount").innerHTML = d.getFullYear();
 window.addEventListener("scroll", ()=>handleScroll(20,100));
 gotop.addEventListener("click", ()=>window.scrollTo({top: 0, left: 0,behavior: "smooth"}));
