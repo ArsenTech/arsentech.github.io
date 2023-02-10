@@ -6,10 +6,8 @@
 Welcome to ArsenTech's Website. If You want to Report Bug, or Request Feature, Write an Issue and ArsenTech will be in touch with you soon.
 ## Website Speed (Tested)
 Google PageSpeed Insights Score: **100** on 📱, **100** on 🖥 <br>
-Pingdom Website Speed Test Score: 
-<span style="color: #22b455;font-weight:bold;">A</span>
- **93** <br>
-GTmetrix Score: <span></span><img src="https://user-images.githubusercontent.com/62609185/103670287-d27a9300-4f92-11eb-94dd-c46532b8f921.PNG" width="32" /><span></span> (Performance: **100%**, Structure: **99%**)
+Pingdom Website Speed Test Score: **93** <br>
+GTmetrix Score: Performance: **100%**, Structure: **99%**
 ## Info
 Arsen, also known online as ArsenTech (formerly known as Arsen Technologies) is an Armenian Tech YouTuber.
 He Lives in Yerevan, Armenia, but it's Videos are English as of 2020. He is Working on Programming, Video Editing.
