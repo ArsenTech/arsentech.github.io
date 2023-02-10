@@ -1,7 +1,7 @@
 .dark{color: #f1f1f1;}
 .dark .logo {background-image: url(/Files/arsentech-dark.svg);background-size: contain;}
-.dark .menu-toggler span {background-color: #fff;}
-.dark .navbar-menu a {color: #fff;}
+.dark .menu-toggler span {background-color: #fafafa;}
+.dark .navbar-menu a {color: #fafafa;}
 .dark .navbar-menu a:hover {color: #1dd1a1 !important;}
 .dark #icon{filter: invert(1);}
 .dark .sticky {background: #353b48;}

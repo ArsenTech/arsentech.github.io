@@ -9,14 +9,8 @@ if(getMode && getMode === "dark") {
      document.body.classList.add("dark");
      modeToggler.querySelector("img").src = "Files/dark.svg";
 }
-function lazyCss(e) {
-     const t = document.createElement( "link" );
-     t.href = e, t.rel = "stylesheet", t.type = "text/css", document.getElementsByTagName("head")[0].appendChild(t);
-}
-function lazyJS(e){
-     const t = document.createElement("script");
-     t.src = e, t.defer = true, document.body.appendChild(t);
-}
+function lazyCss(e) {const t = document.createElement( "link" );t.href = e, t.rel = "stylesheet", t.type = "text/css", document.getElementsByTagName("head")[0].appendChild(t);}
+function lazyJS(e){const t = document.createElement("script");t.src = e, t.defer = true, document.body.appendChild(t);}
 function handleScroll(scrlY, pageY){
      scrlY < this.scrollY ? navbar.classList.add("sticky") : navbar.classList.remove("sticky"); 
      window.pageYOffset > pageY ? gotop.classList.add("active") : gotop.classList.remove("active")
@@ -41,3 +35,14 @@ window.addEventListener("scroll", ()=>handleScroll(20,100));
 gotop.addEventListener("click", ()=>window.scrollTo({top: 0, left: 0,behavior: "smooth"}));
 toggler.addEventListener("click", toggleActive);
 modeToggler.addEventListener("click", toggleMode);
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+     if(e.matches){
+          document.body.classList.add("dark");
+          modeToggler.querySelector("img").src = "Files/dark.svg";
+          localStorage.setItem("arsentech-theme", "dark");
+     } else {
+          document.body.classList.remove("dark");
+          modeToggler.querySelector("img").src = "Files/light.svg";
+          localStorage.setItem("arsentech-theme", "light");
+     }
+});
