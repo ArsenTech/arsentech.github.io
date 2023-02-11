@@ -4,13 +4,23 @@
 <h3 align="center">ArsenTech's Official Website</h3>
 <p align="center">Welcome to the Repository of ArsenTech's Website</p>
 <p align="center">
-     <a href="#">Report bug</a>
+     <a href="https://github.com/ArsenTech/arsentech.github.io/issues/new?assignees=&labels=&template=bug_report.md&title=">Report bug</a>
      &nbsp;&middot;&nbsp;
-     <a href="#">Request Feature</a>
+     <a href="https://github.com/ArsenTech/arsentech.github.io/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
 </p>
 <p align="center">
 <a href="https://github.com/ArsenTech/arsentech.github.io/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/ArsenTech/arsentech.github.io?color=%2322b455&style=for-the-badge"></a>
 </p>
+
+## Table of Contents
+- [About](#about)
+- [Features Included](#features-included)
+- [Bugs and Feature Requests](#bugs-and-feature-requests)
+- [Website Speed](#website-speed-tested)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Tech](#tech)
+- [Support and Follow](#support-and-follow-arsentech)
 
 ## About:
 This is an Official Website of ArsenTech's Website
