@@ -1,9 +1,8 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/ArsenTech/arsentech.github.io/new-look/Files/Profile-Picture.webp" width="100">
+<img src="Files/main-web.png">
 </p>
-<h1 align="center">ArsenTech's Website</h1>
+<p align="center">Welcome to the Repository of ArsenTech's Website</p>
 
-Welcome to ArsenTech's Website. If You want to Report Bug, or Request Feature, Write an Issue and ArsenTech will be in touch with you soon.
 ## Website Speed (Tested)
 Google PageSpeed Insights Score: **100** on 📱, **100** on 🖥 <br>
 Pingdom Website Speed Test Score: **93** <br>
