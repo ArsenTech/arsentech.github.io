@@ -5,15 +5,12 @@ const navMenu = document.querySelector(".navbar-menu");
 const modeToggler = document.querySelector("#icon");
 const getMode = localStorage.getItem("arsentech-theme");
 let d = new Date();
-if(getMode && getMode === "dark") {
-     document.body.classList.add("dark");
-     modeToggler.querySelector("img").src = "Files/dark.svg";
-}
+
+if(getMode && getMode === "dark") {document.body.classList.add("dark");modeToggler.querySelector("img").src = "Files/dark.svg";}
 function lazyCss(e) {const t = document.createElement( "link" );t.href = e, t.rel = "stylesheet", t.type = "text/css", document.getElementsByTagName("head")[0].appendChild(t);}
 function lazyJS(e){const t = document.createElement("script");t.src = e, t.defer = true, document.body.appendChild(t);}
 function handleScroll(scrlY, pageY){
-     scrlY < this.scrollY ? navbar.classList.add("sticky") : navbar.classList.remove("sticky"); 
-     window.pageYOffset > pageY ? gotop.classList.add("active") : gotop.classList.remove("active")
+     scrlY < this.scrollY ? navbar.classList.add("sticky") : navbar.classList.remove("sticky"); window.pageYOffset > pageY ? gotop.classList.add("active") : gotop.classList.remove("active")
 }
 function toggleActive(){toggler.classList.toggle("active"); navMenu.classList.toggle("active");}
 function toggleMode(){
