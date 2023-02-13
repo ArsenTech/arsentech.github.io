@@ -1,16 +1,18 @@
-const gotop = document.querySelector(".goTop");
-const navbar = document.querySelector(".navbar");
-const toggler = document.querySelector(".menu-toggler");
-const navMenu = document.querySelector(".navbar-menu");
-const modeToggler = document.querySelector("#icon");
-const getMode = localStorage.getItem("arsentech-theme");
+const gotop = document.querySelector(".goTop"),
+navbar = document.querySelector(".navbar"),
+toggler = document.querySelector(".menu-toggler"),
+navMenu = document.querySelector(".navbar-menu"),
+modeToggler = document.querySelector("#icon"),
+getMode = localStorage.getItem("arsentech-theme");
 let d = new Date();
-
+lazyCss("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap");
+lazyCss("CSS/dark-mode.css");lazyJS("JS/fslightbox.js");
 if(getMode && getMode === "dark") {document.body.classList.add("dark");modeToggler.querySelector("img").src = "Files/dark.svg";}
 function lazyCss(e) {const t = document.createElement( "link" );t.href = e, t.rel = "stylesheet", t.type = "text/css", document.getElementsByTagName("head")[0].appendChild(t);}
 function lazyJS(e){const t = document.createElement("script");t.src = e, t.defer = true, document.body.appendChild(t);}
 function handleScroll(scrlY, pageY){
-     scrlY < this.scrollY ? navbar.classList.add("sticky") : navbar.classList.remove("sticky"); window.pageYOffset > pageY ? gotop.classList.add("active") : gotop.classList.remove("active")
+     scrlY < this.scrollY ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
+     window.pageYOffset > pageY ? gotop.classList.add("active") : gotop.classList.remove("active");
 }
 function toggleActive(){toggler.classList.toggle("active"); navMenu.classList.toggle("active");}
 function toggleMode(){
@@ -25,8 +27,6 @@ function toggleMode(){
 }
 function closeMenu(){toggler.classList.remove("active"); navMenu.classList.remove("active");}
 const redirectTo = (link) => document.location=link;
-lazyCss("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap");
-lazyCss("CSS/dark-mode.css");lazyJS("JS/fslightbox.js");
 document.getElementById("yearCount").innerHTML = d.getFullYear();
 window.addEventListener("scroll", ()=>handleScroll(20,100));
 gotop.addEventListener("click", ()=>window.scrollTo({top: 0, left: 0,behavior: "smooth"}));
