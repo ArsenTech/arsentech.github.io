@@ -1,29 +1,20 @@
 const gotop = document.querySelector(".goTop"),
 navbar = document.querySelector(".navbar"),
-toggler = document.querySelector(".menu-toggler"),
 navMenu = document.querySelector(".navbar-menu"),
+toggler = document.querySelector(".menu-toggler"),
 modeToggler = document.querySelector("#icon"),
 getMode = localStorage.getItem("arsentech-theme");
 let d = new Date();
 lazyCss("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap");
 lazyCss("CSS/dark-mode.css");lazyJS("JS/fslightbox.js");
-if(getMode && getMode === "dark") {document.body.classList.add("dark");modeToggler.querySelector("img").src = "Files/dark.svg";}
+if(getMode && getMode === "dark") {document.body.classList.add("dark");modeToggler.querySelector("img").src = "Files/icons/dark.svg";}
 function lazyCss(e) {const t = document.createElement( "link" );t.href = e, t.rel = "stylesheet", t.type = "text/css", document.getElementsByTagName("head")[0].appendChild(t);}
 function lazyJS(e){const t = document.createElement("script");t.src = e, t.defer = true, document.body.appendChild(t);}
-function handleScroll(scrlY, pageY){
-     scrlY < this.scrollY ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");
-     window.pageYOffset > pageY ? gotop.classList.add("active") : gotop.classList.remove("active");
-}
+function handleScroll(scrlY, pageY){scrlY < this.scrollY ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");window.pageYOffset > pageY ? gotop.classList.add("active") : gotop.classList.remove("active");}
 function toggleActive(){toggler.classList.toggle("active"); navMenu.classList.toggle("active");}
 function toggleMode(){
      document.body.classList.toggle("dark");
-     if(!document.body.classList.contains("dark")){
-          modeToggler.querySelector("img").src = "Files/light.svg";
-          localStorage.setItem("arsentech-theme", "light");
-     } else {
-          modeToggler.querySelector("img").src = "Files/dark.svg";
-          localStorage.setItem("arsentech-theme", "dark");
-     }
+     !document.body.classList.contains("dark") ? (modeToggler.querySelector("img").src = "Files/icons/light.svg",localStorage.setItem("arsentech-theme", "light")):(modeToggler.querySelector("img").src = "Files/icons/dark.svg",localStorage.setItem("arsentech-theme", "dark"))
 }
 function closeMenu(){toggler.classList.remove("active"); navMenu.classList.remove("active");}
 const redirectTo = (link) => document.location=link;
@@ -35,11 +26,11 @@ modeToggler.addEventListener("click", toggleMode);
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
      if(e.matches){
           document.body.classList.add("dark");
-          modeToggler.querySelector("img").src = "Files/dark.svg";
+          modeToggler.querySelector("img").src = "Files/icons/dark.svg";
           localStorage.setItem("arsentech-theme", "dark");
      } else {
           document.body.classList.remove("dark");
-          modeToggler.querySelector("img").src = "Files/light.svg";
+          modeToggler.querySelector("img").src = "Files/icons/light.svg";
           localStorage.setItem("arsentech-theme", "light");
      }
 });
