@@ -10,7 +10,7 @@
     <link rel="icon" sizes="192x192" href="Files/app-icon.png">
     <link rel="icon" sizes="16x16" href="Files/favicon.ico">
     <link rel="manifest" href="Files/manifest.json">
-    <link rel="stylesheet" media="screen" href="CSS/style.css">
+    <link rel="stylesheet" media="screen" href="CSS/style.css" type="text/css">
     <link rel="dns-prefetch preconnect" href="https://fonts.gstatic.com">
     <title>ArsenTech's Website</title>
 </head>
@@ -29,11 +29,7 @@
         <nav class="navbar">
             <div class="inner-width">
                 <a href="https://github.com/ArsenTech" class="logo" aria-label="ArsenTech">&nbsp;</a>
-                <button class="menu-toggler" aria-label="Menu">
-                    <span>&nbsp;</span>
-                    <span>&nbsp;</span>
-                    <span>&nbsp;</span>
-                </button>
+                <button class="menu-toggler" aria-label="Menu"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></button>
                 <div class="navbar-menu">
                     <a onclick="closeMenu();" href="#home">Home</a>
                     <a onclick="closeMenu();" href="#about">About</a>
@@ -220,9 +216,12 @@
         </div>
     </footer>
     <a href="#" class="goTop"><img src="Files/icons/go-top.svg" alt="angle-up"></a>
-    <script async src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <script defer type="text/javascript" src="JS/script.js"></script>
-    <script>window.addEventListener("load",()=>{const loader=document.querySelector(".loader-wrapper"); loader.className += " loader-hidden"});</script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js" async></script>
+    <script type="text/javascript" src="JS/script.js" defer></script>
+    <script>
+    window.addEventListener("load",()=>{const loader=document.querySelector(".loader-wrapper"); loader.className += " loader-hidden"});
+    document.getElementById("yearCount").innerHTML = (new Date).getFullYear();
+    </script>
     <noscript>
         <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="CSS/lightbox.min.css">
