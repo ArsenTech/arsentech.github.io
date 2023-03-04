@@ -31,7 +31,7 @@ This is an Official Website of ArsenTech's Website
 If You want to Report Bug, or Request Feature, Write an Issue and I'll be in touch with you soon.
 ## Website Speed (Tested)
 Google PageSpeed Insights Score: **100** on 📱, **100** on 🖥 <br>
-Pingdom Website Speed Test Score: **93** <br>
+Pingdom Website Speed Test Score: **81** <br>
 GTmetrix Score: Performance: **100%**, Structure: **99%**
 ## Roadmap
 This is an Entire Roadmap of a Website:
