@@ -61,7 +61,8 @@ section {padding: 100px 0;background: #fafafa;}
 .skill-info {display: flex;justify-content: space-between;}
 .skill-bar {height: 3px;background: #ddd;margin-top: 14px;position: relative;}
 .skill-bar::after {height: 6px;background-color: #1dd1a1;bottom: 0;}
-.html::after,.css::after,.js::after,.react::after{width: 90%;}
+.html::after,.css::after,.js::after,.react::after, .scss::after{width: 90%;}
+.angular::after{width: 75%;}
 section.alt {background-color: #f1f1f1;}
 section.alt .section-title::after {border: 4px solid #f1f1f1;}
 .services {display: flex;justify-content: space-between;flex-wrap: wrap;}
