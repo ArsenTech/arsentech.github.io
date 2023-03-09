@@ -2,11 +2,11 @@
 html {scroll-behavior: smooth;position: relative;}
 ::-webkit-scrollbar {width: 25px;background: #333;}
 ::-webkit-scrollbar-track {border: 7px solid #353b48;box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, .5);}
-::-webkit-scrollbar-thumb {background: linear-gradient(45deg, #22b455, #1dd1a1);}
+::-webkit-scrollbar-thumb {background: #22b455;background: linear-gradient(45deg, #22b455, #1dd1a1);}
 .loader-wrapper{width: 100%;height: 100vh;background-color: #353b48;z-index: 99999;}
 .loader-wrapper, .navbar, .goTop{position: fixed;}
 .loader-wrapper, #home .inner-width, .goTop{display: flex;justify-content: center;align-items: center;}
-.loader{width: 30px;height: 150px;background: linear-gradient(45deg, #22b455, #1dd1a1);border-radius: 50px;margin: 10px;animation: loader 0.8s ease infinite;}
+.loader{width: 30px;height: 150px;background: #22b455;background: linear-gradient(45deg, #22b455, #1dd1a1);border-radius: 50px;margin: 10px;animation: loader 0.8s ease infinite;}
 .loader:nth-child(2){animation-delay: 0.1s;}
 .loader:nth-child(3){animation-delay: 0.2s;}
 .loader:nth-child(4){animation-delay: 0.3s;}
@@ -29,11 +29,10 @@ html {scroll-behavior: smooth;position: relative;}
 #icon img{width: 100%;}
 .sticky {background: #f1f1f1;padding: 18px 0;}
 .sticky .logo {background-image: url(/Files/arsentech-light.svg);}
-.sticky .navbar-menu a {color: #222;}
+.sticky .navbar-menu a, .sticky .menu-toggler {color: #222;}
 .sticky .menu-toggler span {background-color: #222;}
-.sticky .menu-toggler {color: #222;}
-.sticky #icon{filter: invert(0);}
-#home {height: 100vh;min-height: 500px;background: linear-gradient(#20482945,#1dd1a188), url(../Files/bg.webp) no-repeat center;background-attachment: fixed;background-size: cover;transition: 1s all;}
+.sticky #icon{filter: invert(0.1);}
+#home {height: 100vh;min-height: 500px;background: #204829;background: linear-gradient(#20482945,#1dd1a188), url(../Files/bg.webp) no-repeat center;background-attachment: fixed;background-size: cover;transition: 1s all;}
 #home .inner-width {height: 100%;text-align: center;}
 #home .content {width: 100%;color: #fafafa}
 #home .content h1 {font-size: 60px;margin-bottom: 60px;}
@@ -89,7 +88,7 @@ section.alt .section-title::after {border: 4px solid #f1f1f1;}
 .contact-form .btn {width: 180px;background-color: #f1f1f1;color: #0d5a45;font-size: 16px;border: 2px solid #1dd1a1;padding: 0;margin-left: auto;transition: .3s ease-in-out;cursor: pointer;}
 .contact-form .btn:hover {background: #1dd1a1;color: #0d5a45;}
 #error {margin-top: 20px;margin-bottom: 15px;padding: 0;background: #fe8b8e;text-align: center;font-size: 16px;transition: .5s ease-in-out;}
-#site-footer {width: 100%;background: linear-gradient(#20482945,#20482945), url(../Files/bg.webp) no-repeat center;background-attachment: fixed;background-size: cover;color: #fafafa;padding: 80px 0;text-align: center;}
+#site-footer {width: 100%;background: #204829;background: linear-gradient(#20482945,#20482945), url(../Files/bg.webp) no-repeat center;background-attachment: fixed;background-size: cover;color: #fafafa;padding: 80px 0;text-align: center;}
 .copyright {margin-bottom: 20px;font-size: 15px;}
 .copyright a {font-size: 16px;color: #25ecb7;font-weight: 500;transition: .3s linear;}
 .copyright a:hover {color: #bdffed;}
