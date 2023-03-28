@@ -32,7 +32,7 @@ If You want to Report Bug, or Request Feature, Write an Issue and I'll be in tou
 ## Website Speed (Tested)
 Google PageSpeed Insights Score: **100** on 📱, **100** on 🖥 <br>
 Pingdom Website Speed Test Score: **81** <br>
-GTmetrix Score: Performance: **99%**, Structure: **99%**
+GTmetrix Score: Performance: **100%**, Structure: **99%**
 ## Roadmap
 This is an Entire Roadmap of a Website:
 ### 0.5: [Prototype Version](https://github.com/ArsenTech/prototype-website) (2020-2021)
