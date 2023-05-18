@@ -37,30 +37,23 @@ function toggleMode(){
           localStorage.setItem("arsentech-theme", "dark");lazyCss("CSS/dark-mode.css");
      }
 }
-function addSkills(){
-     const skillParent = document.querySelector(".skills");
-     skillData.map(val=>{
-          const el = document.createElement("div");
-          el.classList.add("skill");
-          el.innerHTML = `<div class="skill-info"><span>${val.name}</span><span>${val.percentage}%</span></div>
-          <div class="skill-bar ${val.class}"></div>`;
-          skillParent.append(el);
-     })
-}
-function addServices(){
-     const serviceParent = document.querySelector(".services");
-     serviceData.map(val=>{
-          const el = document.createElement("div");
-          el.classList.add("service");
-          el.addEventListener("click",()=>redirectTo(val.link));
-          el.innerHTML = `<span class="iconify icon" data-icon="${val.icon}" data-inline="false"></span>
-          <h3>${val.name}</h3>
-          <p>${val.desc}</p>`;
-          serviceParent.append(el);
-     })
-}
+const addSkills=()=>skillData.map(val=>{
+     const el = document.createElement("div");
+     el.classList.add("skill");
+     el.innerHTML = `<div class="skill-info"><span>${val.name}</span><span>${val.percentage}%</span></div>
+     <div class="skill-bar ${val.class}"></div>`;
+     document.querySelector(".skills").append(el);
+})
+const addServices=()=>serviceData.map(val=>{
+     const el = document.createElement("div");
+     el.classList.add("service");
+     el.addEventListener("click",()=>redirectTo(val.link));
+     el.innerHTML = `<span class="iconify icon" data-icon="${val.icon}" data-inline="false"></span>
+     <h3>${val.name}</h3>
+     <p>${val.desc}</p>`;
+     document.querySelector(".services").append(el);
+})
 function addWorks(){
-     const worksParent = document.querySelector(".works");
      const code = document.createElement("script");
      worksData.map(val=>{
           const el = document.createElement("a");
@@ -73,7 +66,7 @@ function addWorks(){
              <div class="cat">${val.category}</div>
              <p class="attr">${val.attr}</p>
           </div>`;
-          worksParent.append(el);
+          document.querySelector(".works").append(el);
      });
      code.src = "JS/fslightbox.js";
      code.defer = true;
