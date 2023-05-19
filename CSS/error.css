@@ -14,7 +14,7 @@ body {font-family: Sora, Arial;}
      .error-title{font-size:25px;}.error-text{font-size:15px;}
 }
 @media screen and (max-width:400px){.error-number{font-size: 100px;}}
-.no-script #site-header, .no-script #site-main,.no-script #site-footer,.no-script #error,.no-script .loader-wrapper{display: none;}
+.no-script #error{display: none;}
 .no-script{min-height: 100vh;text-align: center;background: #204829;background: linear-gradient(#22B45545,#1dd1a188), url(../Files/bg.jpg) no-repeat;background: linear-gradient(#22B45545,#1dd1a188), url(../Files/bg.webp) no-repeat; background-size: cover;}
-.no-script h2{color: #dc3545;margin: 10px;font-size: 30px;}
+.no-script h2{color: #dc3545;margin: 5px;font-size: 30px;}
 noscript .err{width: 100%;position: absolute;top: 50%;background: #92e5a1;padding: 15px 0;}
