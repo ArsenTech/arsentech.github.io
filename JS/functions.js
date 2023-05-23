@@ -60,7 +60,7 @@ function addWorks(){
           el.href = val.img;
           el.setAttribute("data-fslightbox","mygallery");
           el.className = "work";
-          el.innerHTML = `<img src="${val.img}" alt="${val.imgAlt}" loading="lazy">
+          el.innerHTML = `<img src="${val.img}" alt="${val.imgAlt}" loading="lazy" width="392" height="266">
           <div class="info">
              <h3>${val.name}</h3>
              <div class="cat">${val.category}</div>
