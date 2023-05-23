@@ -14,12 +14,12 @@ const serviceData = [
      {name:"Malware Testing",desc:"Malware Testing Content and Antivirus VS Malware Videos",icon:"fa-solid:bug",link:"https://youtube.com/playlist?list=PLsOMVP9OgGeoAFJZdOofZQS3R0g5G57ot"}
 ];
 const worksData = [
-     {img:"Files/Work/code.webp",name:"Programming",category:"Development, Programming",attr:"Photo by Pixabay from Pexels",imgAlt:"coding"},
-     {img:"Files/Work/wintuto.webp",name:"Tutorials",category:"Windows, Linux",attr:"Photo by Max DeRoin from Pexels",imgAlt:"keyboard"},
-     {img:"Files/Work/lintuto.webp",name:"Windows Experiments",category:"Windows 10, Windows 7",attr:"Photo by Negative Space from Pexels",imgAlt:"computer"},
-     {img:"Files/Work/downloads.webp",name:"Downloads",category:"Free Downloads :-)",attr:"Photo by Miguel Á. Padriñán from Pexels",imgAlt:"downloads"},
-     {img:"Files/Work/virustest.webp",name:"Malware Testing",category:"Virus Test, Malware Test",attr:"Photo by Markus Spiske from Pexels",imgAlt:"matrix"},
-     {img:"Files/Work/ios.webp",name:"ArsenTech Shorts",category:"Quick Tutorials, Tips and Tricks",attr:"Photo by Tracy Le Blanc from Pexels",imgAlt:"phone"},
+     {img:"Files/Work/code.webp",name:"Programming",category:"Development, Programming",attr:"Photo: Pixabay from Pexels",imgAlt:"coding"},
+     {img:"Files/Work/wintuto.webp",name:"Tutorials",category:"Windows, Linux",attr:"Photo: Max DeRoin from Pexels",imgAlt:"keyboard"},
+     {img:"Files/Work/lintuto.webp",name:"Windows Experiments",category:"Windows 10, Windows 7",attr:"Photo: Negative Space from Pexels",imgAlt:"computer"},
+     {img:"Files/Work/downloads.webp",name:"Downloads",category:"Free Downloads :-)",attr:"Photo: Miguel Á. Padriñán from Pexels",imgAlt:"downloads"},
+     {img:"Files/Work/virustest.webp",name:"Malware Testing",category:"Virus Test, Malware Test",attr:"Photo: Markus Spiske from Pexels",imgAlt:"matrix"},
+     {img:"Files/Work/ios.webp",name:"ArsenTech Shorts",category:"Quick Tutorials, Tips and Tricks",attr:"Photo: Tracy Le Blanc from Pexels",imgAlt:"phone"},
 ]
 const removeCss = ()=>document.querySelector("link[href='CSS/dark-mode.css']").remove();
 const redirectTo = (link) => document.location=link;
