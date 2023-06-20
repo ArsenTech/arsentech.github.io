@@ -2,7 +2,7 @@
 .dark .logo {background-image: url(/Files/arsentech-dark.svg);background-size: contain;}
 .dark .menu-toggler span {background-color: #fff;}
 .dark .navbar-menu a {color: #fff;}
-.dark .navbar-menu a:hover {color: #1dd1a1 !important;}
+.dark .navbar-menu a:hover, .dark .navbar-menu a:focus {color: #1dd1a1 !important;}
 .dark #icon{filter: invert(1);}
 .dark .sticky {background: #353b48;}
 .dark .sticky .logo {background-image: url(/Files/arsentech-dark.svg);}
@@ -21,14 +21,14 @@
 .dark section.alt .section-title::after {border-color: #2f343f;}
 .dark .service {border-color: #1dd1a1;color: #1dd1a1;}
 .dark .service .icon {color: #1dd1a1;}
-.dark .service:hover {background-color: #1dd1a1;color: #2f343f;}
-.dark .service:hover .icon {color: #2f343f;}
+.dark .service:hover, .dark .service:focus {background-color: #1dd1a1;color: #2f343f;}
+.dark .service:hover .icon, .dark .service:focus .icon {color: #2f343f;}
 .dark .contact-info .item {color: #2f343f;background-color: #f1f1f1;}
-.dark .contact-info .item:hover {background-color: #1dd1a1;}
+.dark .contact-info .item:hover, .dark .contact-info .item:focus {background-color: #1dd1a1;}
 .dark .contact-form input, .dark .contact-form textarea {background-color: #f1f1f1;color: #2f343f;}
 .dark .contact-form input::placeholder, .dark .contact-form textarea::placeholder {color: #666}
 .dark .contact-form .btn {background-color: #2f343f;color: #1dd1a1;}
-.dark .contact-form .btn:hover {background: #1dd1a1;color: #2f343f;}
+.dark .contact-form .btn:hover, .dark .contact-form .btn:focus {background: #1dd1a1!important;color: #2f343f!important;}
 @media screen and (max-width:980px){
      .dark .navbar-menu{background-color:#2f343f;}
      .dark .sticky .navbar-menu{background-color:#353b48;}
