@@ -17,7 +17,7 @@ const worksData = [
      {img:"Files/Work/code.webp",name:"Programming",category:"Development, Programming",attr:"Photo: Pixabay from Pexels",imgAlt:"coding"},
      {img:"Files/Work/wintuto.webp",name:"Tutorials",category:"Windows, Linux",attr:"Photo: Max DeRoin from Pexels",imgAlt:"keyboard"},
      {img:"Files/Work/lintuto.webp",name:"Windows Experiments",category:"Windows 10, Windows 7",attr:"Photo: Negative Space from Pexels",imgAlt:"computer"},
-     {img:"Files/Work/downloads.webp",name:"Downloads",category:"Free Downloads :-)",attr:"Photo: Miguel Á. Padriñán from Pexels",imgAlt:"downloads"},
+     {img:"Files/Work/downloads.webp",name:"Downloads",category:"Software, Wallpaper",attr:"Photo: Miguel Á. Padriñán from Pexels",imgAlt:"downloads"},
      {img:"Files/Work/virustest.webp",name:"Malware Testing",category:"Virus Test, Malware Test",attr:"Photo: Markus Spiske from Pexels",imgAlt:"matrix"},
      {img:"Files/Work/ios.webp",name:"ArsenTech Shorts",category:"Quick Tutorials, Tips and Tricks",attr:"Photo: Tracy Le Blanc from Pexels",imgAlt:"phone"},
 ]
