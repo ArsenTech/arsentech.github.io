@@ -1,4 +1,4 @@
-* {margin: 0;padding: 0;box-sizing: border-box;text-decoration: none;font-family: Sora, Arial;}
+* {margin: 0;padding: 0;box-sizing: border-box;text-decoration: none;font-family: Sora,'Segoe UI', Tahoma, Geneva, Verdana ,Arial, Helvetica, sans-serif;}
 html {scroll-behavior: smooth;position: relative;}
 body{background: #f1f1f1; color: #202020;}
 ::-webkit-scrollbar {width: 25px;background: #333;}
