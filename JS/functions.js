@@ -10,7 +10,7 @@ const serviceData = [
      {name:"Coding with ArsenTech",desc:"Coding Tutorials with HTML, CSS, JS, SCSS, Bootstrap, React.JS",icon:"akar-icons:youtube-fill",link:"https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA"},
      {name:"Games",desc:"Games Made on Scratch by ArsenTech. (These Are Basic / Arcade Games)",icon:"ion:game-controller",link:"https://scratch.mit.edu/users/ArsenTech/"},
      {name:"Coding",desc:"Check My Github Repositories for Web Development",icon:"bx:bx-code-alt",link:"https://github.com/ArsenTech?tab=repositories"},
-     {name:"Downloads",desc:"Download Windows Versions, Softwares and Some Files from My Collection",icon:"fa:download",link:"https://downloads-arsentech-2005.web.app/"},
+     {name:"Downloads",desc:"Download Windows Versions, Softwares and Some Files from My Collection",icon:"fa:download",link:"https://arsentech.github.io/downloads/"},
      {name:"Malware Testing",desc:"Malware Testing Content and Antivirus VS Malware Videos",icon:"fa-solid:bug",link:"https://youtube.com/playlist?list=PLsOMVP9OgGeoAFJZdOofZQS3R0g5G57ot"}
 ];
 const worksData = [
