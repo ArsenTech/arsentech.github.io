@@ -80,6 +80,7 @@ This is an Entire Roadmap of a Website:
 - Changed Caret Color
 - Added Skip to Content Feature
 - New Landing Page Button Colors
+- Subscribe Popup
 ## Contributing
 Contributions are Always Welcome, but please read both [Code of Conduct](https://github.com/ArsenTech/arsentech.github.io/blob/main/CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](https://github.com/ArsenTech/arsentech.github.io/blob/main/CONTRIBUTING.md) for Contributing This Project :-)
 ## Tech
