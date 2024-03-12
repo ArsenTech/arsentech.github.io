@@ -29,6 +29,11 @@
 .dark .contact-form input::placeholder, .dark .contact-form textarea::placeholder {color: #666}
 .dark .contact-form .btn {background-color: #2f343f;color: #1dd1a1;}
 .dark .contact-form .btn:hover, .dark .contact-form .btn:focus {background: #1dd1a1!important;color: #2f343f!important;}
+.dark .subscribe{background: #353b48;}
+.dark .subscribe p{color: #afafaf;}
+.dark .subscribe a{background: #1dd1a1;color: #353b48;}
+.dark .subscribe a:hover{background: #92e5a1;}
+.dark .subscribe button{color: #fff;}
 @media screen and (max-width:980px){
      .dark .navbar-menu{background-color:#2f343f;}
      .dark .sticky .navbar-menu{background-color:#353b48;}
