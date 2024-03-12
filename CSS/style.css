@@ -94,8 +94,8 @@ section.alt{background-color: #f1f1f1;}section.alt .section-title::after{border:
 .subscribe button:hover{opacity:1}
 .subscribe img{border-radius:50%;margin-right:15px}
 .subscribe p{color:#444}
-.subscribe a{display:inline-block;padding:.5em 1em;border-radius:10px;background:#138164;width:100%;color:#fff;width:100%;text-align:center;transition:.3s;margin-top: 5px;font-size: 18px;}
-.subscribe a:hover{background:#0d5a45}.subscribe.hide{animation:hide_sub 0.5s ease forwards}
+.subscribe a{display:inline-block;padding:.5em 1em;border-radius:10px;background:#0B4B3A;width:100%;color:#fff;width:100%;text-align:center;transition:.3s;margin-top: 5px;font-size: 18px;}
+.subscribe a:hover{background:#138164}.subscribe.hide{animation:hide_sub 0.5s ease forwards}
 @keyframes show_sub {0%{transform: translate(-100%);}50%{transform: translate(5%);}100%{transform: translate(0);}}
 @keyframes hide_sub {0%{transform: translate(0);}50%{transform: translate(5%);}100%{transform: translate(calc(-100% - 40px));}}
 @media screen and (max-width:980px){
