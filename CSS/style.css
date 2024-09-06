@@ -119,4 +119,4 @@ section.alt{background-color: #f1f1f1;}section.alt .section-title::after{border:
 .no-script{min-height: 100vh;text-align: center;background: #204829;background: linear-gradient(#22B45545,#1dd1a188),url(../Files/bg.jpg) no-repeat;background: linear-gradient(#22B45545,#1dd1a188),url(../Files/bg.webp) no-repeat; background-size: cover;}
 .no-script h2{color: #dc3545;margin: 5px;font-size: 30px;}
 noscript .err{width: 100%;position: absolute;top: 50%;background: #92e5a1;padding: 15px 0;}
-@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition: none !important;}}
+@media (prefers-reduced-motion: reduce) {*,*::after,*::before {transition: none !important;scroll-behavior: auto !important;transition-delay: 0 !important;}}

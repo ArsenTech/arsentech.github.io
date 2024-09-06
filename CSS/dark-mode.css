@@ -6,6 +6,7 @@
 .dark #icon{filter: invert(1);}
 .dark .sticky {background: #353b48;}
 .dark .sticky .logo {background-image: url(/Files/arsentech-dark.svg);}
+.sticky .logo:hover{background-image: url(/Files/arsentech-colorful.svg);}
 .dark .sticky .navbar-menu a {color: #f1f1f1;}
 .dark .sticky .menu-toggler span {background-color: #f1f1f1;}
 .dark .sticky .menu-toggler {color: #f1f1f1;}
