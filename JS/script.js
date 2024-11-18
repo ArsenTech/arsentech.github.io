@@ -17,4 +17,4 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e =
      }
 });
 subClose.addEventListener('click',()=>subPopup.classList.add('hide'))
-lazyCss("https://fonts.googleapis.com/CSS2?family=Sora:wght@300;400;500;700&display=swap");init();
+lazyCss("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap");init();

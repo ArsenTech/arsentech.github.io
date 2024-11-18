@@ -1,9 +1,9 @@
 const skillData = [
      {name:"HTML",class:"html",percentage:90},
-     {name:"CSS",class:"CSS",percentage:90},
+     {name:"CSS",class:"css",percentage:90},
      {name:"Javascript",class:"js",percentage:90},
      {name:"React JS",class:"react",percentage:90},
-     {name:"SASS (SCSS)",class:"sCSS",percentage:90},
+     {name:"SASS (SCSS)",class:"scss",percentage:90},
      {name:"Angular",class:"angular",percentage:75}
 ]
 const serviceData = [
@@ -24,7 +24,7 @@ const worksData = [
 ]
 const removeCss = ()=>document.querySelector("link[href='CSS/dark-mode.css']").remove();
 const redirectTo = (link) => document.location=link;
-function lazyCss(e) {const t = document.createElement( "link" );t.href = e, t.rel = "stylesheet", t.type = "text/CSS", t.media="screen", document.getElementsByTagName("head")[0].appendChild(t);}
+function lazyCss(e) {const t = document.createElement( "link" );t.href = e, t.rel = "stylesheet", t.type = "text/css", t.media="screen", document.getElementsByTagName("head")[0].appendChild(t);}
 function handleScroll(scrlY, pageY){scrlY < this.scrollY ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");window.scrollY > pageY ? gotop.classList.add("active") : gotop.classList.remove("active");}
 function toggleActive(){toggler.classList.toggle("active"); navMenu.classList.toggle("active");}
 function closeMenu(){toggler.classList.remove("active"); navMenu.classList.remove("active");}
