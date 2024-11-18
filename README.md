@@ -1,5 +1,5 @@
 <p align="center">
-<img src="Files/main-web.png">
+<img src="files/main-web.png">
 </p>
 <h3 align="center">ArsenTech's Official Website</h3>
 <p align="center">Welcome to the Repository of ArsenTech's Website</p>
