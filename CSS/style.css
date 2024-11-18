@@ -94,12 +94,7 @@ section.alt{background-color: #f1f1f1;}section.alt .section-title::after{border:
 .subscribe p{color:#444}
 .subscribe a{display:inline-block;padding:.5em 1em;border-radius:10px;background:#0B4B3A;width:100%;color:#fff;width:100%;text-align:center;transition:.3s;margin-top: 5px;font-size: 18px;}
 .subscribe a:hover{background:#138164}.subscribe.hide{animation:hide_sub 0.5s ease forwards}
-.christmas :where(#home,#site-footer){
-     background: #204829 !important;
-     background: linear-gradient(#20482945,#20482945),url(../files/backgrounds/bg-christmas.jpg) no-repeat !important;
-     background: linear-gradient(#20482945,#20482945),url(../files/backgrounds/bg-christmas.webp) no-repeat center !important;
-     background-attachment: fixed !important;background-size: cover !important;
-}
+.christmas:where(#home,#site-footer){background:#204829!important;background:linear-gradient(#20482945,#20482945),url(../files/backgrounds/bg-christmas.jpg) no-repeat!important;background:linear-gradient(#20482945,#20482945),url(../files/backgrounds/bg-christmas.webp) no-repeat center!important;background-attachment:fixed!important;background-size:cover!important}
 @keyframes loader{0%,100%{transform: rotateX(0);}50%{transform: rotateX(90deg);}}
 @keyframes fadeOut{100%{opacity:0;visibility: hidden;}}
 @keyframes text{25%{content: "a Tech Youtuber";}50%{content: "a Developer";}75%{content: "a Programmer (Coder)";}}
