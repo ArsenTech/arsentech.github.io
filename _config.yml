@@ -6,7 +6,7 @@ exclude:
   - LICENSE
   - README.md
   - CODE_OF_CONDUCT.md
-  - files/main-web.png
+  - Files/main-web.png
   - .vscode/*
   - .github/*
   
