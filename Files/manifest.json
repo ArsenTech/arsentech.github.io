@@ -3,7 +3,7 @@
      "name": "ArsenTech's Official Website",
      "icons": [
           {
-               "src": "/files/app-icon.png",
+               "src": "/Files/app-icon.png",
                "sizes": "192x192",
                "type": "image/png",
                "purpose": "maskable any"

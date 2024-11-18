@@ -1,9 +1,9 @@
 const skillData = [
      {name:"HTML",class:"html",percentage:90},
-     {name:"CSS",class:"css",percentage:90},
+     {name:"CSS",class:"CSS",percentage:90},
      {name:"Javascript",class:"js",percentage:90},
      {name:"React JS",class:"react",percentage:90},
-     {name:"SASS (SCSS)",class:"scss",percentage:90},
+     {name:"SASS (SCSS)",class:"sCSS",percentage:90},
      {name:"Angular",class:"angular",percentage:75}
 ]
 const serviceData = [
@@ -15,27 +15,27 @@ const serviceData = [
      {name:"Malware Testing",desc:"Malware Testing Content and Antivirus VS Malware Videos",icon:"fa-solid:bug",link:"https://youtube.com/playlist?list=PLsOMVP9OgGeoAFJZdOofZQS3R0g5G57ot"}
 ];
 const worksData = [
-     {img:"files/Work/code.webp",name:"Programming",category:"Development, Programming",attr:"Photo: Pixabay from Pexels",imgAlt:"coding"},
-     {img:"files/Work/wintuto.webp",name:"Tutorials",category:"Windows, Linux",attr:"Photo: Max DeRoin from Pexels",imgAlt:"keyboard"},
-     {img:"files/Work/lintuto.webp",name:"Windows Experiments",category:"Windows 10, Windows 7",attr:"Photo: Negative Space from Pexels",imgAlt:"computer"},
-     {img:"files/Work/downloads.webp",name:"Downloads",category:"Software, Wallpaper",attr:"Photo: Miguel Á. Padriñán from Pexels",imgAlt:"downloads"},
-     {img:"files/Work/virustest.webp",name:"Malware Testing",category:"Virus Test, Malware Test",attr:"Photo: Markus Spiske from Pexels",imgAlt:"matrix"},
-     {img:"files/Work/ios.webp",name:"ArsenTech Shorts",category:"Quick Tutorials, Tips and Tricks",attr:"Photo: Tracy Le Blanc from Pexels",imgAlt:"phone"},
+     {img:"Files/Work/code.webp",name:"Programming",category:"Development, Programming",attr:"Photo: Pixabay from Pexels",imgAlt:"coding"},
+     {img:"Files/Work/wintuto.webp",name:"Tutorials",category:"Windows, Linux",attr:"Photo: Max DeRoin from Pexels",imgAlt:"keyboard"},
+     {img:"Files/Work/lintuto.webp",name:"Windows Experiments",category:"Windows 10, Windows 7",attr:"Photo: Negative Space from Pexels",imgAlt:"computer"},
+     {img:"Files/Work/downloads.webp",name:"Downloads",category:"Software, Wallpaper",attr:"Photo: Miguel Á. Padriñán from Pexels",imgAlt:"downloads"},
+     {img:"Files/Work/virustest.webp",name:"Malware Testing",category:"Virus Test, Malware Test",attr:"Photo: Markus Spiske from Pexels",imgAlt:"matrix"},
+     {img:"Files/Work/ios.webp",name:"ArsenTech Shorts",category:"Quick Tutorials, Tips and Tricks",attr:"Photo: Tracy Le Blanc from Pexels",imgAlt:"phone"},
 ]
-const removeCss = ()=>document.querySelector("link[href='css/dark-mode.css']").remove();
+const removeCss = ()=>document.querySelector("link[href='CSS/dark-mode.css']").remove();
 const redirectTo = (link) => document.location=link;
-function lazyCss(e) {const t = document.createElement( "link" );t.href = e, t.rel = "stylesheet", t.type = "text/css", t.media="screen", document.getElementsByTagName("head")[0].appendChild(t);}
+function lazyCss(e) {const t = document.createElement( "link" );t.href = e, t.rel = "stylesheet", t.type = "text/CSS", t.media="screen", document.getElementsByTagName("head")[0].appendChild(t);}
 function handleScroll(scrlY, pageY){scrlY < this.scrollY ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");window.scrollY > pageY ? gotop.classList.add("active") : gotop.classList.remove("active");}
 function toggleActive(){toggler.classList.toggle("active"); navMenu.classList.toggle("active");}
 function closeMenu(){toggler.classList.remove("active"); navMenu.classList.remove("active");}
 function toggleMode(){
      document.body.classList.toggle("dark");
      if(!document.body.classList.contains("dark")){
-          modeToggler.querySelector("img").src = "files/icons/light.svg";
+          modeToggler.querySelector("img").src = "Files/icons/light.svg";
           localStorage.setItem("arsentech-theme", "light");removeCss();
      } else{
-          modeToggler.querySelector("img").src = "files/icons/dark.svg";
-          localStorage.setItem("arsentech-theme", "dark");lazyCss("css/dark-mode.css");
+          modeToggler.querySelector("img").src = "Files/icons/dark.svg";
+          localStorage.setItem("arsentech-theme", "dark");lazyCss("CSS/dark-mode.css");
      }
 }
 const addSkills=()=>skillData.map(val=>{
@@ -69,7 +69,7 @@ function addWorks(){
           </div>`;
           document.querySelector(".works").append(el);
      });
-     code.src = "js/fslightbox.js";
+     code.src = "JS/fslightbox.js";
      code.defer = true;
      document.body.appendChild(code);
 }
@@ -82,7 +82,7 @@ function isChristmas() {
 function init(){
      const aboutPfp = document.querySelector(".about-pic");
      const subscribePfp = document.querySelector(".subscribe img");
-     const christmasPfp = "files/profile-pics/pfp-christmas.webp", regularPfp = "files/profile-pics/pfp.webp"
+     const christmasPfp = "Files/profile-pics/pfp-christmas.webp", regularPfp = "Files/profile-pics/pfp.webp"
      aboutPfp.src = isChristmas() ? christmasPfp : regularPfp;
      subscribePfp.src = isChristmas() ? christmasPfp : regularPfp;
      document.body.classList[isChristmas() ? "add" : "remove"]("christmas");
