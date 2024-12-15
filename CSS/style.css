@@ -39,7 +39,7 @@ body{background: #f1f1f1; color: #202020;}
 .sm a:hover img,.sm a:focus-within img{filter:invert(86%)sepia(62%)saturate(302%)hue-rotate(58deg)brightness(99%)contrast(105%);}
 #home .buttons{margin-top: 60px;}
 #home .buttons a{display: inline-block;margin: 15px 30px;color: #fff;font-size: 16px;font-weight: 500;width: 180px;border: 1px solid #fff;padding: 15px 0;border-radius: 6px;transition: .3s ease-in-out;outline:0;}
-#home .buttons a:hover,#home .buttons a:focus-within{background-color: #204829;color: #fff;border-color: #204829;}
+#home .buttons a:hover,#home .buttons a:focus-within,#home .buttons a:last-child{background-color: #204829;color: #fff;border-color: #204829;}
 section{padding: 100px 0;background: #fff;}
 .section-title{text-align: center;margin-bottom: 80px;position: relative;font-size: 26px;padding-bottom: 20px;color: #222;}
 .section-title::before,.section-title::after,.skill-bar::after,.work::before{content: "";position: absolute;}
@@ -56,7 +56,7 @@ section{padding: 100px 0;background: #fff;}
 .skill-info{display: flex;justify-content: space-between;}
 .skill-bar{height: 3px;background: #ddd;margin-top: 14px;position: relative;}
 .skill-bar::after{height: 6px;background-color: #1dd1a1;bottom: 0;}
-.html::after,.css::after,.js::after,.react::after,.scss::after{width: 90%;}.angular::after{width: 75%;}
+.html::after,.css::after,.js::after,.react::after,.nextjs::after{width: 90%;}.angular::after{width: 75%;}
 section.alt{background-color: #f1f1f1;}section.alt .section-title::after{border: 4px solid #f1f1f1;}
 .services{display: flex;justify-content: space-between;flex-wrap: wrap;}
 .service{width: calc(33% - 20px);text-align: center;border: 1px solid #0d5a45;border-radius: 5px;margin: 20px 0;padding: 40px 20px;color: #0d5a45;cursor: pointer;transition: .4s ease-in-out;}
