@@ -99,6 +99,6 @@ Contributions are Always Welcome, but please read both [Code of Conduct](https:/
 [![Scratch](https://img.shields.io/badge/-ArsenTech-222222?style=for-the-badge&logo=scratch&logoColor=orange)](https://scratch.mit.edu/users/ArsenTech/)
 
 > GitHub [@ArsenTech](https://github.com/ArsenTech) &nbsp;&middot;&nbsp;
-> YouTube [@ArsenTech](https://youtube.com/@ArsenTech)
-> Patreon [ArsenTech](https://www.patreon.com/ArsenTech)
-> [ArsenTech's Website](https://arsentech.github.io) &nbsp;&middot;&nbsp;
+> YouTube [@ArsenTech](https://youtube.com/@ArsenTech) &nbsp;&middot;&nbsp;
+> Patreon [ArsenTech](https://www.patreon.com/ArsenTech) &nbsp;&middot;&nbsp;
+> [ArsenTech's Website](https://arsentech.github.io)
