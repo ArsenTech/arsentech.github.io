@@ -96,3 +96,4 @@ Contributions are Always Welcome, but please read both [Code of Conduct](https:/
 > GitHub [@ArsenTech](https://github.com/ArsenTech) &nbsp;&middot;&nbsp;
 > [ArsenTech's Website](https://arsentech.github.io) &nbsp;&middot;&nbsp;
 > YouTube [@ArsenTech](https://youtube.com/@ArsenTech)
+> Patreon [ArsenTech](https://www.patreon.com/ArsenTech)
