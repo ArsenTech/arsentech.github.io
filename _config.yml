@@ -1,5 +1,5 @@
 compress_html:
-    comments: all 
+  comments: all 
     
 exclude:
   - CONTRIBUTING.md
@@ -11,5 +11,4 @@ exclude:
   - .github/*
   
 gems:
-  - jekyll-sitemap
   - jekyll-seo-tag
