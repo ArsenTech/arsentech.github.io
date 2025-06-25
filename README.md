@@ -91,7 +91,7 @@ This is an Entire Roadmap of a Website:
 - Colorful Logo on Mouse Over
 
 ## Contributing
-Contributions are Always Welcome! Please read both [Code of Conduct](https://github.com/ArsenTech/arsentech.github.io/blob/main/CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](https://github.com/ArsenTech/arsentech.github.io/blob/main/CONTRIBUTING.md)
+Contributions are Always Welcome! Please read both [Code of Conduct](https://github.com/ArsenTech/arsentech.github.io/blob/main/CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](https://github.com/ArsenTech/arsentech.github.io/blob/main/CONTRIBUTING.md) before contributing.
 
 ## Tech
 - **Client:** HTML, CSS, Javascript
