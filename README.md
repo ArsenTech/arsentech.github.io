@@ -1,7 +1,7 @@
 <p align="center">
-<img src="Files/main-web.png">
+<img src=".github/main-web.png">
 </p>
-<h3 align="center">ArsenTech's Official Website</h3>
+<h1 align="center">ArsenTech's Official Website</h1>
 <p align="center">Welcome to the Repository of ArsenTech's Website</p>
 <p align="center">
      <a href="https://github.com/ArsenTech/arsentech.github.io/issues/new?assignees=&labels=&template=bug_report.md&title=">Report bug</a>
@@ -10,10 +10,11 @@
 </p>
 <p align="center">
 <a href="https://github.com/ArsenTech/arsentech.github.io/blob/main/LICENSE"><img alt="GitHub" src="https://img.shields.io/github/license/ArsenTech/arsentech.github.io?color=%2322b455&style=for-the-badge"></a>
+<img alt="GitHub Created At" src="https://img.shields.io/github/created-at/ArsenTech/arsentech.github.io?style=for-the-badge">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/ArsenTech/arsentech.github.io?style=for-the-badge">
 </p>
 
 ## Table of Contents
-- [About](#about)
 - [Features Included](#features-included)
 - [Bugs and Feature Requests](#bugs-and-feature-requests)
 - [Website Speed](#website-speed-tested)
@@ -22,25 +23,29 @@
 - [Tech](#tech)
 - [Support and Follow](#support-and-follow-arsentech)
 
-## About:
-This is an Official Website of ArsenTech's Website
 ## Features Included
 - Dark Mode
 - Updated Lightbox (I'm using FSLightbox)
+- Other features from v0.5, v1.0, and v2.0
+
 ## Bugs and Feature Requests
 If You want to Report Bug, or Request Feature, Write an Issue and I'll be in touch with you soon.
+
 ## Website Speed (Tested)
 Google PageSpeed Insights Score: **100** on 📱, **100** on 🖥 <br>
 Pingdom Website Speed Test Score: **81** <br>
 GTmetrix Score: Performance: **100%**, Structure: **99%**
+
 ## Roadmap
 This is an Entire Roadmap of a Website:
+
 ### 0.5: [Prototype Version](https://github.com/ArsenTech/prototype-website) (2020-2021)
 - Initialized the Website
 - Made Every Page As a Separate HTML Files
 - Added JQuery Lightbox
 - Added 404 Page and Page, That Shows When JS is Disabled
 - Because It has Alot of Bugs and Slow Performance, I Replaced that with a version 1.0
+
 ### 1.0: First Release (2021-2023)
 - Reinitialized the Website
 - Updated Header
@@ -60,9 +65,11 @@ This is an Entire Roadmap of a Website:
 - Added Background Overlay
 - Added Lazy Load Function
 - More Changes...
+
 ### 1.5: Added Downloads Page (2022-2023)
 - Added Downloads Page To the Main Website
-- For More, Read Roadmap of the Downloads Page
+- **For More** button, Read Roadmap of the Downloads Page
+
 ### 2.0: **New Look** (2023-now)
 - Changed Background to Image
 - Maxified HTML Code
@@ -82,13 +89,14 @@ This is an Entire Roadmap of a Website:
 - New Landing Page Button Colors
 - Subscribe Popup
 - Colorful Logo on Mouse Over
+
 ## Contributing
-Contributions are Always Welcome, but please read both [Code of Conduct](https://github.com/ArsenTech/arsentech.github.io/blob/main/CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](https://github.com/ArsenTech/arsentech.github.io/blob/main/CONTRIBUTING.md) for Contributing This Project :-)
+Contributions are Always Welcome! Please read both [Code of Conduct](https://github.com/ArsenTech/arsentech.github.io/blob/main/CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](https://github.com/ArsenTech/arsentech.github.io/blob/main/CONTRIBUTING.md)
 
 ## Tech
 - **Client:** HTML, CSS, Javascript
 - **Libraries (Frameworks):** FSLightbox
-- **Icons:** Iconify
+- **Icons:** Downloaded from Iconify
 
 ## Support And Follow ArsenTech
 [![YouTube](https://img.shields.io/badge/ArsenTech%20-222222.svg?&style=for-the-badge&logo=YouTube&logoColor=%23FF0000)](https://www.youtube.com/channel/UCrtH0g6NE8tW5VIEgDySYtg)
