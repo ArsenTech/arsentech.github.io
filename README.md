@@ -28,8 +28,14 @@
 - Updated Lightbox (I'm using FSLightbox)
 - Other features from v0.5, v1.0, and v2.0
 
+### Coming Soon
+- [ ] Interactive FAQ section
+- [ ] Projects Section
+- [ ] Blog Section
+- [ ] Side Menus (Anchor navigation) to make the navbar clean
+
 ## Bugs and Feature Requests
-If You want to Report Bug, or Request Feature, Write an Issue and I'll be in touch with you soon.
+If you want to report Bug, or request a Feature, write an Issue, and I'll be in touch with you soon.
 
 ## Website Speed (Tested)
 Google PageSpeed Insights Score: **100** on 📱, **100** on 🖥 <br>
@@ -41,10 +47,10 @@ This is an Entire Roadmap of a Website:
 
 ### 0.5: [Prototype Version](https://github.com/ArsenTech/prototype-website) (2020-2021)
 - Initialized the Website
-- Made Every Page As a Separate HTML Files
+- Made Every Page a Separate HTML File
 - Added JQuery Lightbox
-- Added 404 Page and Page, That Shows When JS is Disabled
-- Because It has Alot of Bugs and Slow Performance, I Replaced that with a version 1.0
+- Added a 404 Page and a Page That Shows When JS is Disabled
+- Because it has a lot of Bugs and Slow Performance, I replaced it with a version 1.0
 
 ### 1.0: First Release (2021-2023)
 - Reinitialized the Website
@@ -55,9 +61,9 @@ This is an Entire Roadmap of a Website:
 - Made Every Service Clickable
 - Compressed Some Images
 - Updated Design of a 404 Page and Page When JS is Disabled
-- Added Button to Go Top
-- It Has Gallery Page, But Now It Doesn't Because It is Replaced With a Downloads Page.
-- It used To use a JQuery, But now it is in Vanilla Javascript
+- Added a Button to Go Top
+- It has a Gallery Page, But Now It Doesn't Because It has been Replaced With a Downloads Page.
+- It used to use jQuery, but now it is in Vanilla JavaScript
 - Added Loader
 - Added theme Color and Apple Touch Icon
 - Minified Entire Website Code
@@ -66,9 +72,9 @@ This is an Entire Roadmap of a Website:
 - Added Lazy Load Function
 - More Changes...
 
-### 1.5: Added Downloads Page (2022-2023)
+### 1.5: [Added Downloads Page](https://github.com/ArsenTech/downloads) (2022-2023)
 - Added Downloads Page To the Main Website
-- **For More** button, Read Roadmap of the Downloads Page
+- **For More** button, read the Roadmap of the Downloads Page
 
 ### 2.0: **New Look** (2023-now)
 - Changed Background to Image
@@ -80,7 +86,7 @@ This is an Entire Roadmap of a Website:
 - Changed Loader Animation
 - Added Dark Mode Feature
 - Updated Design of a 404 Page and Page When JS is Disabled
-- Changed Lightbox From Jquery Lightbox to FSLightbox (Pure Javascript)
+- Changed Lightbox From Jquery Lightbox to FSLightbox (Pure JavaScript)
 - Updated Apple Touch Icon and Added Android Icon
 - Made Service OnClick to a Function
 - Added `manifest.json`
@@ -94,7 +100,7 @@ This is an Entire Roadmap of a Website:
 Contributions are Always Welcome! Please read both [Code of Conduct](https://github.com/ArsenTech/arsentech.github.io/blob/main/CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](https://github.com/ArsenTech/arsentech.github.io/blob/main/CONTRIBUTING.md) before contributing.
 
 ## Tech
-- **Client:** HTML, CSS, Javascript
+- **Client:** HTML, CSS, JavaScript
 - **Libraries (Frameworks):** FSLightbox
 - **Icons:** Downloaded from Iconify
 
