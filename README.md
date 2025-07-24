@@ -33,6 +33,7 @@
 - [ ] Projects Section
 - [ ] Blog Section
 - [ ] Side Menus (Anchor navigation) to make the navbar clean
+- [ ] The "My Other Channels" section including a link to Subscribe to other channels
 
 ## Bugs and Feature Requests
 If you want to report Bug, or request a Feature, write an Issue, and I'll be in touch with you soon.
