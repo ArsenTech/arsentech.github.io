@@ -43,59 +43,8 @@ Google PageSpeed Insights Score: **100** on 📱, **100** on 🖥 <br>
 Pingdom Website Speed Test Score: **81** <br>
 GTmetrix Score: Performance: **100%**, Structure: **99%**
 
-## Roadmap
-This is an Entire Roadmap of a Website:
-
-### 0.5: [Prototype Version](https://github.com/ArsenTech/prototype-website) (2020-2021)
-- Initialized the Website
-- Made Every Page a Separate HTML File
-- Added JQuery Lightbox
-- Added a 404 Page and a Page That Shows When JS is Disabled
-- Because it has a lot of Bugs and Slow Performance, I replaced it with a version 1.0
-
-### 1.0: First Release (2021-2023)
-- Reinitialized the Website
-- Updated Header
-- Added New Gradient Background
-- Added Some Sections From Prototype Version
-- Added Some New Sections
-- Made Every Service Clickable
-- Compressed Some Images
-- Updated Design of a 404 Page and Page When JS is Disabled
-- Added a Button to Go Top
-- It has a Gallery Page, But Now It Doesn't Because It has been Replaced With a Downloads Page.
-- It used to use jQuery, but now it is in Vanilla JavaScript
-- Added Loader
-- Added theme Color and Apple Touch Icon
-- Minified Entire Website Code
-- Converted Some Images To WEBP
-- Added Background Overlay
-- Added Lazy Load Function
-- More Changes...
-
-### 1.5: [Added Downloads Page](https://github.com/ArsenTech/downloads) (2022-2023)
-- Added Downloads Page To the Main Website
-- **For More** button, read the Roadmap of the Downloads Page
-
-### 2.0: **New Look** (2023-now)
-- Changed Background to Image
-- Maxified HTML Code
-- Made Color Contrast Ratio Better
-- Converted Logo From PNG to SVG
-- Updated Navbar
-- Fixed Some Spelling Errors
-- Changed Loader Animation
-- Added Dark Mode Feature
-- Updated Design of a 404 Page and Page When JS is Disabled
-- Changed Lightbox From Jquery Lightbox to FSLightbox (Pure JavaScript)
-- Updated Apple Touch Icon and Added Android Icon
-- Made Service OnClick to a Function
-- Added `manifest.json`
-- Changed Caret Color
-- Added Skip to Content Feature
-- New Landing Page Button Colors
-- Subscribe Popup
-- Colorful Logo on Mouse Over
+## Versioning
+This website follows [Semantic Versioning](https://semver.org/). You can view the full [Changelog](https://github.com/ArsenTech/arsentech.github.io/blob/main/CHANGELOG.md) for details on each website version.
 
 ## Contributing
 Contributions are Always Welcome! Please read both [Code of Conduct](https://github.com/ArsenTech/arsentech.github.io/blob/main/CODE_OF_CONDUCT.md) and [CONTRIBUTING.md](https://github.com/ArsenTech/arsentech.github.io/blob/main/CONTRIBUTING.md) before contributing.
