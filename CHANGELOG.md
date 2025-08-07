@@ -8,7 +8,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Features
 - Subscribe Popup
 - Added Skip to Content Feature
-- Added the Christmas theme
+- Added Christmas theme (active during December - January; legacy seasonal feature preserved)
 ### Improvements
 - Colorful Logo on Mouse Over
 - New Landing Page Button Colors
