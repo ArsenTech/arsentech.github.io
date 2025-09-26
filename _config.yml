@@ -1,0 +1,16 @@
+url: "https://arsentech.github.io"
+
+compress_html:
+  comments: all 
+    
+exclude:
+  - CONTRIBUTING.md
+  - LICENSE.md
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - .vscode/*
+  - .github/*
+  
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag

@@ -1,0 +1,42 @@
+.dark{color: #f1f1f1;background: #353b48;}
+.dark .logo {background-image: url(/Files/arsentech-dark.svg);background-size: contain;}
+.dark .menu-toggler span {background-color: #fff;}
+.dark .navbar-menu a {color: #fff;}
+.dark .navbar-menu a:hover, .dark .navbar-menu a:focus {color: #1dd1a1 !important;}
+.dark #icon{filter: invert(1);}
+.dark .sticky {background: #353b48;}
+.dark .sticky .logo {background-image: url(/Files/arsentech-dark.svg);}
+.dark .sticky .logo:hover{background-image: url(/Files/arsentech-colorful.svg);}
+.dark .sticky .navbar-menu a {color: #f1f1f1;}
+.dark .sticky .menu-toggler span {background-color: #f1f1f1;}
+.dark .sticky .menu-toggler {color: #f1f1f1;}
+.dark section {background: #353b48;}
+.dark .section-title {color: #f1f1f1;}
+.dark .section-title::before {background: #f1f1f1;}
+.dark .section-title::after {background-color: #1dd1a1;border-color: #353b48;}
+.dark .about-text h3 {color: #aaa;}
+.dark .about-text h3 span:nth-child(1)::after, .dark .about-text h3 span:nth-child(2)::after {background: #aaa;}
+.dark .skill-bar {background: #888;}
+.dark .skill-bar::after {background-color: #1dd1a1;}
+.dark section.alt {background-color: #2f343f;}
+.dark section.alt .section-title::after {border-color: #2f343f;}
+.dark .service {border-color: #1dd1a1;color: #1dd1a1;}
+.dark .service .icon {color: #1dd1a1;}
+.dark .service:hover, .dark .service:focus {background-color: #1dd1a1;color: #2f343f;}
+.dark .service:hover .icon, .dark .service:focus .icon {color: #2f343f;}
+.dark .contact-info .item {color: #2f343f;background-color: #f1f1f1;}
+.dark .contact-info .item:hover, .dark .contact-info .item:focus {background-color: #1dd1a1;}
+.dark .contact-form input, .dark .contact-form textarea {background-color: #f1f1f1;color: #2f343f;}
+.dark .contact-form input::placeholder, .dark .contact-form textarea::placeholder {color: #666}
+.dark .contact-form .btn {background-color: #2f343f;color: #1dd1a1;}
+.dark .contact-form .btn:hover, .dark .contact-form .btn:focus {background: #1dd1a1!important;color: #2f343f!important;}
+.dark .subscribe{background: #353b48;}
+.dark .subscribe p{color: #afafaf;}
+.dark .subscribe a{background: #1dd1a1;color: #353b48;}
+.dark .subscribe a:hover{background: #92e5a1;}
+.dark .subscribe button{color: #fff;}
+@media screen and (max-width:980px){
+     .dark .navbar-menu{background-color:#2f343f;}
+     .dark .sticky .navbar-menu{background-color:#353b48;}
+     .dark .sticky .menu-toggler.span{background-color:#f1f1f1;}
+}
