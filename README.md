@@ -61,6 +61,9 @@ Contributions are Always Welcome! Please read both [Code of Conduct][code-of-con
 ## Star History
 [![Star History Chart][star-history-chart]][star-history-url]
 
+## License
+Distributed under the MIT License. See `LICENSE.md` for more information.
+
 ## Support And Follow
 [![YouTube][yt-shield]][yt-url]
 [![Patreon][patreon-shield]][patreon-url]
