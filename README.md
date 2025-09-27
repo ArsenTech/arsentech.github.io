@@ -26,6 +26,7 @@
           <li><a href="#versioning">Versioning</a></li>
           <li><a href="#contributing">Contributing</a></li>
           <li><a href="#star-history">Star History</a></li>
+          <li><a href="#license">License</a></li>
      </ol>
 </details>
 
@@ -38,7 +39,7 @@
 - [ ] Projects Section
 - [ ] Blog Section
 - [ ] Side Menus (Anchor navigation) to make the navbar clean
-- [ ] The "My Other Channels" section including a link to Subscribe to other channels
+- [ ] The "My Other Channels" section, including a link to subscribe to other channels
 
 ## Website Speed
 - **Google PageSpeed Insights Score**: 100 on Mobile, 100 on Desktop
@@ -60,6 +61,9 @@ Contributions are Always Welcome! Please read both [Code of Conduct][code-of-con
 
 ## Star History
 [![Star History Chart][star-history-chart]][star-history-url]
+
+## License
+Distributed under the MIT License. See `LICENSE.md` for more information.
 
 ## Support And Follow
 [![YouTube][yt-shield]][yt-url]
