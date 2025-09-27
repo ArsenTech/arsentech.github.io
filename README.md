@@ -79,7 +79,7 @@ Contributions are Always Welcome! Please read both [Code of Conduct][code-of-con
 [star-history-url]: https://api.star-history.com/svg?repos=ArsenTech/arsentech.github.io&type=Date
 [contributors-shield]: https://img.shields.io/github/contributors/ArsenTech/arsentech.github.io.svg?style=for-the-badge&color=%2322b455
 [contributors-url]: https://github.com/ArsenTech/arsentech.github.io/graphs/contributors
-[top-contributors]: https://contrib.rocks/image?repo=ArsenTech/arsentech.github.io
+[top-contributors]: https://contrib.rocks/image?repo=arsentech/arsentech.github.io
 [forks-shield]: https://img.shields.io/github/forks/ArsenTech/arsentech.github.io.svg?style=for-the-badge&color=%2322b455
 [forks-url]: https://github.com/ArsenTech/arsentech.github.io/network/members
 [stars-shield]: https://img.shields.io/github/stars/ArsenTech/arsentech.github.io.svg?style=for-the-badge&color=%2322b455
