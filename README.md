@@ -24,7 +24,12 @@
           <li><a href="#website-speed">Website Speed</a></li>
           <li><a href="#built-with">Built with</a></li>
           <li><a href="#versioning">Versioning</a></li>
-          <li><a href="#contributing">Contributing</a></li>
+          <li>
+               <a href="#contributing">Contributing</a>
+               <ul>
+                    <li><a href="#top-contributors">Top Contributors</a></li>
+               </ul>
+          </li>
           <li><a href="#star-history">Star History</a></li>
           <li><a href="#license">License</a></li>
      </ol>
