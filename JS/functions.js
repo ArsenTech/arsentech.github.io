@@ -24,7 +24,7 @@ const worksData = [
 ]
 const removeCss = ()=>document.querySelector("link[href='CSS/dark-mode.css']").remove();
 function lazyCss(e) {const t = document.createElement( "link" );t.href = e, t.rel = "stylesheet", t.type = "text/css", t.media="screen", document.getElementsByTagName("head")[0].appendChild(t);}
-function handleScroll(scrlY, pageY){scrlY < this.scrollY ? navbar.classList.add("sticky") : navbar.classList.remove("sticky");window.scrollY > pageY ? gotop.classList.add("active") : gotop.classList.remove("active");}
+function handleScroll(scrlY, pageY, anchorY){navbar.classList[scrlY < window.scrollY ? "add" : "remove"]("sticky");anchor.classList[window.scrollY > anchorY ? "add" : "remove"]("sticky");gotop.classList[window.scrollY > pageY ? "add" : "remove"]("active");}
 function toggleActive(){toggler.classList.toggle("active"); navMenu.classList.toggle("active");}
 function closeMenu(){toggler.classList.remove("active"); navMenu.classList.remove("active");}
 function toggleMode(){

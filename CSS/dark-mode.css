@@ -10,6 +10,9 @@
 .dark .sticky .navbar-menu a {color: #f1f1f1;}
 .dark .sticky .menu-toggler span {background-color: #f1f1f1;}
 .dark .sticky .menu-toggler {color: #f1f1f1;}
+.dark .anchor {background: transparent;}
+.dark .anchor.sticky .marker{border-color: #b3ffc1;}
+.dark .anchor.sticky .anchor-item:hover .marker{background: #b3ffc1;}
 .dark section {background: #353b48;}
 .dark .section-title {color: #f1f1f1;}
 .dark .section-title::before {background: #f1f1f1;}
