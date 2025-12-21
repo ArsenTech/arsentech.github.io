@@ -10,6 +10,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Blog Section
 ### Changed
 - Optimized some parts of JS Code
+- Converted Data into a static JSON file
 
 ## 2.0.1 - 2024-12-15
 ### Added

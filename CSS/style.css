@@ -72,7 +72,7 @@ section.alt{background-color: #f1f1f1;}section.alt .section-title::after{border:
 .service:hover{background-color: #0d5a45;color: #f1f1f1;}.service:hover .icon,.icon{color: #f1f1f1;}
 .contact-form,.contact-info,.works{display: flex;justify-content: center;flex-wrap: wrap;}
 .work{width: calc(33% - 10px);overflow: hidden;border-radius: 6px;margin: 5px;cursor: pointer;position: relative;}
-.work img{width: 100%;height: 100%;transition: .4s linear;aspect-ratio: 12/8;}
+.work img{width: 100%;height: 100%;transition: .4s linear;aspect-ratio: 1.5/1;}
 .work::before{width: 100%;height: 100%;z-index: 1;background: #22b455aa;transition: .4s linear;opacity: 0;transform: scale(0);}
 .work .info{position: absolute;z-index: 2;bottom: 15px;left: 20px;color: #fff;transition: .2s linear;opacity: 0;}
 .work:hover img,.work:focus img{transform: scale(1.6) rotate(25deg);}
@@ -102,7 +102,7 @@ section.alt{background-color: #f1f1f1;}section.alt .section-title::after{border:
 .subscribe p{color:#444}
 .subscribe a{display:inline-block;padding:.5em 1em;border-radius:10px;background:#0B4B3A;width:100%;color:#fff;width:100%;text-align:center;transition:.3s;margin-top: 5px;font-size: 18px;}
 .subscribe a:hover{background:#138164}.subscribe.hide{animation:hide_sub 0.5s ease forwards}
-.posts{display: flex;flex-direction: column;gap: 10px;}
+.posts{display: flex;flex-direction: column;gap: 10px;}.posts:empty{display: none;}
 .posts .blog-post{display: flex;flex-direction: column;gap: 12px;border-bottom: 1px solid #1dd1a1;padding-bottom: 12px;margin-bottom: 12px;}
 .posts .blog-post:last-child{border: 0;padding-bottom: 0;margin-bottom: 0;}
 .posts .blog-post h3{font-size: 1.875rem;line-height: 2.25rem;font-weight: 600;}
@@ -113,11 +113,10 @@ section.alt{background-color: #f1f1f1;}section.alt .section-title::after{border:
 .posts .blog-post .details .info a{color: #222;text-underline-offset: 4px;transition: .3s ease all;}
 .posts .blog-post .details .info a:hover{color: #138164;text-decoration: underline;}
 .posts .blog-post .details .more-btn, #blog .btn{display: inline-flex;justify-content: center;align-items: center;gap: 8px;}
-.posts .blog-post .details .more-btn{padding: 8px 12px;color: #222;transition: .3s ease all;border-radius: 8px;}
+.posts .blog-post .details .more-btn{padding: 8px;color: #222;transition: .3s ease all;border-radius: 8px;}
 .posts .blog-post .details .more-btn:hover{background: rgb(29, 209, 161,.5)}
 #blog .btn{height: 50px;outline: 0;border-radius: 4px;margin: 10px 5px;}
 .loading-txt{display: flex;justify-content: center;align-items: center;width: 100%;padding-bottom: 25px;font-size: 21px;color: #8f8f8f;}
-.posts:empty{display: none;}
 .christmas :where(#home,#site-footer){background:#204829!important;background:linear-gradient(#20482945,#20482945),url(../Images/backgrounds/bg-christmas.jpg) no-repeat!important;background:linear-gradient(#20482945,#20482945),url(../Images/backgrounds/bg-christmas.webp) no-repeat center!important;background-attachment:fixed!important;background-size:cover!important}
 @keyframes loader{0%,100%{transform: rotateX(0);}50%{transform: rotateX(90deg);}}
 @keyframes fadeOut{100%{opacity:0;visibility: hidden;}}
