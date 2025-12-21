@@ -4,16 +4,16 @@ toggler = document.querySelector(".menu-toggler"),modeToggler = document.querySe
 getMode = localStorage.getItem("arsentech-theme"),subClose = document.querySelector('#sub-close'),
 subPopup = document.querySelector('.subscribe'),anchor = document.querySelector(".anchor"),
 anchors = anchor.querySelectorAll(".anchor-item"),sections = document.querySelectorAll("section");
-if(getMode && getMode === "dark") {document.body.classList.add("dark");modeToggler.querySelector("img").src = "Files/icons/dark.svg";lazyCss("CSS/dark-mode.css")}
+if(getMode && getMode === "dark") {document.body.classList.add("dark");modeToggler.querySelector("img").src = "Images/icons/dark.svg";lazyCss("CSS/dark-mode.css")}
 window.addEventListener("scroll", ()=>handleScroll(20,100,650));
 gotop.addEventListener("click", ()=>window.scrollTo({top: 0, left: 0,behavior: "smooth"}));
 toggler.addEventListener("click", toggleActive);modeToggler.addEventListener("click", toggleMode);
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
      if(e.matches){
-          document.body.classList.add("dark");modeToggler.querySelector("img").src = "Files/icons/dark.svg";
+          document.body.classList.add("dark");modeToggler.querySelector("img").src = "Images/icons/dark.svg";
           localStorage.setItem("arsentech-theme", "dark");lazyCss("CSS/dark-mode.css");
      } else {
-          document.body.classList.remove("dark");modeToggler.querySelector("img").src = "Files/icons/light.svg";
+          document.body.classList.remove("dark");modeToggler.querySelector("img").src = "Images/icons/light.svg";
           localStorage.setItem("arsentech-theme", "light");removeCss();
      }
 });

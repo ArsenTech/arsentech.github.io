@@ -16,7 +16,7 @@ body{background: #f1f1f1; color: #202020;}
 .navbar{background: 0 0;width: 100%;padding: 30px 0;top: 0;z-index: 9999;transition: .3s ease-in-out;}
 .inner-width{max-width: 1300px;margin: auto;padding: 0 40px;}
 .navbar .inner-width{display: flex;align-items: center;justify-content: space-between;}
-.logo{width: 150px;height: 32px;background-image: url(/Files/arsentech-dark.svg);background-size: contain;}
+.logo{width: 150px;height: 32px;background-image: url(/Images/arsentech-dark.svg);background-size: contain;}
 .menu-toggler{background: 0 0;width: 30px;border: none;cursor: pointer;position: relative;z-index: 999;display: none;color: #fff;font-size: 25px;}
 .menu-toggler span{display: block;height: 3px;background-color: #fff;margin: 6px 0;position: relative;transition: .3s ease;}
 .navbar-menu a{color: #fff;font-size: 16px;font-weight: 500;margin-left: 30px;transition: .3s ease;}
@@ -24,12 +24,12 @@ body{background: #f1f1f1; color: #202020;}
 #icon{width: 30px;transition: .3s ease;filter: invert(1);cursor: pointer;}
 #icon img{width: 100%;}
 .sticky{background: #f1f1f1;padding: 18px 0;}
-.sticky .logo{background-image: url(/Files/arsentech-light.svg);transition: .3s;}
-.sticky .logo:hover{background-image: url(/Files/arsentech-colorful.svg);}
+.sticky .logo{background-image: url(/Images/arsentech-light.svg);transition: .3s;}
+.sticky .logo:hover{background-image: url(/Images/arsentech-colorful.svg);}
 .sticky .navbar-menu a,.sticky .menu-toggler{color: #222;}
 .sticky .menu-toggler span{background-color: #222;}
 .sticky #icon{filter: invert(0.1);}
-#home{height: 100vh;min-height: 500px;background: #204829;background: linear-gradient(#20482945,#1dd1a188),url(../Files/backgrounds/bg.jpg) no-repeat;background: linear-gradient(#20482945,#1dd1a188),url(../Files/backgrounds/bg.webp) no-repeat center;background-attachment: fixed;background-size: cover;transition: 1s all;}
+#home{height: 100vh;min-height: 500px;background: #204829;background: linear-gradient(#20482945,#1dd1a188),url(../Images/backgrounds/bg.jpg) no-repeat;background: linear-gradient(#20482945,#1dd1a188),url(../Images/backgrounds/bg.webp) no-repeat center;background-attachment: fixed;background-size: cover;transition: 1s all;}
 #home .inner-width{height: 100%;text-align: center;}
 #home .content{width: 100%;color: #fff}
 #home .content h1{font-size: 60px;margin-bottom: 60px;}
@@ -87,7 +87,7 @@ section.alt{background-color: #f1f1f1;}section.alt .section-title::after{border:
 .messageZone{min-height: 200px;resize: vertical;}
 .contact-form .btn{width: 180px;background-color: #f1f1f1;color: #0d5a45;font-size: 16px;border: 2px solid #1dd1a1;padding: 0;margin-right: auto;transition: .3s ease-in-out;cursor: pointer;}
 .contact-form .btn:hover,.contact-form .btn:focus-within{background: #1dd1a1;}
-#site-footer{width: 100%;background: #204829;background: linear-gradient(#20482945,#20482945),url(../Files/backgrounds/bg.jpg) no-repeat;background: linear-gradient(#20482945,#20482945),url(../Files/backgrounds/bg.webp) no-repeat center;background-attachment: fixed;background-size: cover;color: #fff;padding: 80px 0;text-align: center;}
+#site-footer{width: 100%;background: #204829;background: linear-gradient(#20482945,#20482945),url(../Images/backgrounds/bg.jpg) no-repeat;background: linear-gradient(#20482945,#20482945),url(../Images/backgrounds/bg.webp) no-repeat center;background-attachment: fixed;background-size: cover;color: #fff;padding: 80px 0;text-align: center;}
 .copyright{margin-bottom: 20px;font-size: 16px;}
 .copyright a{text-decoration: underline;font-size: 16px;color: #E8FDF7;font-weight: 500;transition: .3s linear;}
 .copyright a:hover,.copyright a:focus-within{color: #59facf;}
@@ -101,7 +101,7 @@ section.alt{background-color: #f1f1f1;}section.alt .section-title::after{border:
 .subscribe p{color:#444}
 .subscribe a{display:inline-block;padding:.5em 1em;border-radius:10px;background:#0B4B3A;width:100%;color:#fff;width:100%;text-align:center;transition:.3s;margin-top: 5px;font-size: 18px;}
 .subscribe a:hover{background:#138164}.subscribe.hide{animation:hide_sub 0.5s ease forwards}
-.christmas :where(#home,#site-footer){background:#204829!important;background:linear-gradient(#20482945,#20482945),url(../Files/backgrounds/bg-christmas.jpg) no-repeat!important;background:linear-gradient(#20482945,#20482945),url(../Files/backgrounds/bg-christmas.webp) no-repeat center!important;background-attachment:fixed!important;background-size:cover!important}
+.christmas :where(#home,#site-footer){background:#204829!important;background:linear-gradient(#20482945,#20482945),url(../Images/backgrounds/bg-christmas.jpg) no-repeat!important;background:linear-gradient(#20482945,#20482945),url(../Images/backgrounds/bg-christmas.webp) no-repeat center!important;background-attachment:fixed!important;background-size:cover!important}
 @keyframes loader{0%,100%{transform: rotateX(0);}50%{transform: rotateX(90deg);}}
 @keyframes fadeOut{100%{opacity:0;visibility: hidden;}}
 @keyframes text{25%{content: "a Tech Youtuber";}50%{content: "a Developer";}75%{content: "a Programmer (Coder)";}}
@@ -124,7 +124,7 @@ section.alt{background-color: #f1f1f1;}section.alt .section-title::after{border:
 @media screen and (max-width:600px){#home .content h1{font-size:40px;}.inner-width{padding:0 18px;}.skill,.service,.work{width:100%;}.emailZone,.nameZone{max-width:100%;}.subscribe{right:12px;}}
 @media screen and (max-width:290px){#home .content h1{font-size:30px;}.subscribe img{width:75px;height:75px;}}
 .no-script #site-header,.no-script #site-main,.no-script #site-footer,.no-script .loader-wrapper{display: none;}
-.no-script{min-height: 100vh;text-align: center;background: #204829;background: linear-gradient(#22B45545,#1dd1a188),url(../Files/backgrounds/bg.jpg) no-repeat;background: linear-gradient(#22B45545,#1dd1a188),url(../Files/backgrounds/bg.webp) no-repeat; background-size: cover;}
+.no-script{min-height: 100vh;text-align: center;background: #204829;background: linear-gradient(#22B45545,#1dd1a188),url(../Images/backgrounds/bg.jpg) no-repeat;background: linear-gradient(#22B45545,#1dd1a188),url(../Images/backgrounds/bg.webp) no-repeat; background-size: cover;}
 .no-script h2{color: #dc3545;margin: 5px;font-size: 30px;}
 noscript .err{width: 100%;position: absolute;top: 50%;background: #92e5a1;padding: 15px 0;}
 @media (prefers-reduced-motion: reduce) {*,*::after,*::before {transition: none !important;scroll-behavior: auto !important;transition-delay: 0 !important;}}

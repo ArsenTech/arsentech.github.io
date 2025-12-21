@@ -15,12 +15,12 @@ const serviceData = [
      {name:"Malware Testing",desc:"Malware Testing Content and Antivirus Test Videos",icon:"fa-solid:bug",link:"https://youtube.com/playlist?list=PLsOMVP9OgGeoAFJZdOofZQS3R0g5G57ot"}
 ];
 const worksData = [
-     {img:"Files/Work/code.webp",name:"Programming",category:"Development, Programming",attr:"Photo by luis  from Pexels",imgAlt:"coding"},
-     {img:"Files/Work/wintuto.webp",name:"Tutorials",category:"Windows, Linux",attr:"Photo by Max DeRoin from Pexels",imgAlt:"keyboard"},
-     {img:"Files/Work/lintuto.webp",name:"Windows Experiments",category:"Windows 10, Windows 7",attr:"Photo by Negative Space from Pexels",imgAlt:"computer"},
-     {img:"Files/Work/downloads.webp",name:"Downloads",category:"Software, Wallpaper",attr:"Photo by Miguel Á. Padriñán from Pexels",imgAlt:"downloads"},
-     {img:"Files/Work/virustest.webp",name:"Malware Testing",category:"Virus Test, Malware Test",attr:"Photo by Markus Spiske from Pexels",imgAlt:"matrix"},
-     {img:"Files/Work/ios.webp",name:"ArsenTech Shorts",category:"Quick Tutorials, Tips and Tricks",attr:"Photo by Tracy Le Blanc from Pexels",imgAlt:"phone"},
+     {img:"Images/Work/code.webp",name:"Programming",category:"Development, Programming",attr:"Photo by luis  from Pexels",imgAlt:"coding"},
+     {img:"Images/Work/wintuto.webp",name:"Tutorials",category:"Windows, Linux",attr:"Photo by Max DeRoin from Pexels",imgAlt:"keyboard"},
+     {img:"Images/Work/lintuto.webp",name:"Windows Experiments",category:"Windows 10, Windows 7",attr:"Photo by Negative Space from Pexels",imgAlt:"computer"},
+     {img:"Images/Work/downloads.webp",name:"Downloads",category:"Software, Wallpaper",attr:"Photo by Miguel Á. Padriñán from Pexels",imgAlt:"downloads"},
+     {img:"Images/Work/virustest.webp",name:"Malware Testing",category:"Virus Test, Malware Test",attr:"Photo by Markus Spiske from Pexels",imgAlt:"matrix"},
+     {img:"Images/Work/ios.webp",name:"ArsenTech Shorts",category:"Quick Tutorials, Tips and Tricks",attr:"Photo by Tracy Le Blanc from Pexels",imgAlt:"phone"},
 ]
 const removeCss = ()=>document.querySelector("link[href='CSS/dark-mode.css']").remove();
 function lazyCss(e) {const t = document.createElement( "link" );t.href = e, t.rel = "stylesheet", t.type = "text/css", t.media="screen", document.getElementsByTagName("head")[0].appendChild(t);}
@@ -30,10 +30,10 @@ function closeMenu(){toggler.classList.remove("active");navMenu.classList.remove
 function toggleMode(){
      document.body.classList.toggle("dark");
      if(!document.body.classList.contains("dark")){
-          modeToggler.querySelector("img").src = "Files/icons/light.svg";
+          modeToggler.querySelector("img").src = "Images/icons/light.svg";
           localStorage.setItem("arsentech-theme", "light");removeCss();
      } else{
-          modeToggler.querySelector("img").src = "Files/icons/dark.svg";
+          modeToggler.querySelector("img").src = "Images/icons/dark.svg";
           localStorage.setItem("arsentech-theme", "dark");lazyCss("CSS/dark-mode.css");
      }
 }
@@ -80,7 +80,7 @@ function isChristmas() {
 function init(){
      const aboutPfp = document.querySelector(".about-pic");
      const subscribePfp = document.querySelector(".subscribe img");
-     const christmasPfp = "Files/profile-pics/pfp-christmas.webp", regularPfp = "Files/profile-pics/pfp.webp"
+     const christmasPfp = "Images/profile-pics/pfp-christmas.webp", regularPfp = "Images/profile-pics/pfp.webp"
      aboutPfp.src = isChristmas() ? christmasPfp : regularPfp;
      subscribePfp.src = isChristmas() ? christmasPfp : regularPfp;
      document.body.classList.toggle("christmas",isChristmas());
