@@ -31,13 +31,18 @@
 .dark .contact-info .item:hover, .dark .contact-info .item:focus {background-color: #1dd1a1;}
 .dark .contact-form input, .dark .contact-form textarea {background-color: #f1f1f1;color: #2f343f;}
 .dark .contact-form input::placeholder, .dark .contact-form textarea::placeholder {color: #666}
-.dark .contact-form .btn {background-color: #2f343f;color: #1dd1a1;}
-.dark .contact-form .btn:hover, .dark .contact-form .btn:focus {background: #1dd1a1!important;color: #2f343f!important;}
+.dark .contact-form .btn {background-color: #353b48;color: #1dd1a1}
+.dark :where(.contact-form .btn:hover, .contact-form .btn:focus, #blog .btn:hover, #blog .btn:focus) {background: #1dd1a1 !important;color: #2f343f !important;}
+.dark #blog .btn {background-color: #2f343f;color: #1dd1a1}
 .dark .subscribe{background: #353b48;}
 .dark .subscribe p{color: #afafaf;}
 .dark .subscribe a{background: #1dd1a1;color: #353b48;}
 .dark .subscribe a:hover{background: #92e5a1;}
 .dark .subscribe button{color: #fff;}
+.dark .posts .blog-post .details .more-btn{color: white;}
+.dark .posts .blog-post .details .more-btn:hover{background: rgb(29, 209, 161,.25)}
+.dark .posts .blog-post h3 a:hover{color: #1dd1a1;}
+.dark .posts .blog-post h3 a{color: #fff;}
 @media screen and (max-width:980px){
      .dark .navbar-menu{background-color:#2f343f;}
      .dark .sticky .navbar-menu{background-color:#353b48;}

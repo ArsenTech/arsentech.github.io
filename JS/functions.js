@@ -1,27 +1,3 @@
-const skillData = [
-     {name:"HTML",class:"html",percentage:90},
-     {name:"CSS, Sass (SCSS)",class:"css",percentage:90},
-     {name:"Javascript",class:"js",percentage:90},
-     {name:"React JS",class:"react",percentage:90},
-     {name:"Next JS",class:"nextjs",percentage:90},
-     {name:"Angular",class:"angular",percentage:75}
-]
-const serviceData = [
-     {name:"Tutorials",desc:"This is Mostly important for All Windows, iOS, And Linux Users (Check in YouTube)",icon:"ant-design:laptop-outlined",link:"https://www.youtube.com/playlist?list=PLsOMVP9OgGeosVdpYLlVuNTa-iiOSvGHS"},
-     {name:"Coding with ArsenTech",desc:"Coding Tutorials to become a Skilled Programmer",icon:"bx:bx-code-alt",link:"https://www.youtube.com/@Coding_With_ArsenTech"},
-     {name:"Games",desc:"Games Made on Scratch by ArsenTech. (These Are Basic / Arcade Games)",icon:"ion:game-controller",link:"https://scratch.mit.edu/users/ArsenTech/"},
-     {name:"Windows Experiments",desc:"Windows Test Videos Made By ArsenTech (Educational Purposes Only)",icon:"ion:hammer",link:"https://www.youtube.com/playlist?list=PLsOMVP9OgGerNCzsOFk1jnIlbXrv6nWrX"},
-     {name:"Downloads",desc:"Download Windows Versions, Softwares and Some Files from My Collection",icon:"fa:download",link:"https://arsentech.github.io/downloads/"},
-     {name:"Malware Testing",desc:"Malware Testing Content and Antivirus Test Videos",icon:"fa-solid:bug",link:"https://youtube.com/playlist?list=PLsOMVP9OgGeoAFJZdOofZQS3R0g5G57ot"}
-];
-const worksData = [
-     {img:"Images/Work/code.webp",name:"Programming",category:"Development, Programming",attr:"Photo by luis  from Pexels",imgAlt:"coding"},
-     {img:"Images/Work/wintuto.webp",name:"Tutorials",category:"Windows, Linux",attr:"Photo by Max DeRoin from Pexels",imgAlt:"keyboard"},
-     {img:"Images/Work/lintuto.webp",name:"Windows Experiments",category:"Windows 10, Windows 7",attr:"Photo by Negative Space from Pexels",imgAlt:"computer"},
-     {img:"Images/Work/downloads.webp",name:"Downloads",category:"Software, Wallpaper",attr:"Photo by Miguel Á. Padriñán from Pexels",imgAlt:"downloads"},
-     {img:"Images/Work/virustest.webp",name:"Malware Testing",category:"Virus Test, Malware Test",attr:"Photo by Markus Spiske from Pexels",imgAlt:"matrix"},
-     {img:"Images/Work/ios.webp",name:"ArsenTech Shorts",category:"Quick Tutorials, Tips and Tricks",attr:"Photo by Tracy Le Blanc from Pexels",imgAlt:"phone"},
-]
 const removeCss = ()=>document.querySelector("link[href='CSS/dark-mode.css']").remove();
 function lazyCss(e) {const t = document.createElement( "link" );t.href = e, t.rel = "stylesheet", t.type = "text/css", t.media="screen", document.getElementsByTagName("head")[0].appendChild(t);}
 function handleScroll(scrlY, pageY, anchorY){navbar.classList.toggle("sticky",scrlY < window.scrollY);anchor.classList.toggle("sticky",window.scrollY > anchorY);gotop.classList.toggle("active",window.scrollY > pageY);}
@@ -37,14 +13,14 @@ function toggleMode(){
           localStorage.setItem("arsentech-theme", "dark");lazyCss("CSS/dark-mode.css");
      }
 }
-const addSkills=()=>skillData.map(val=>{
+const addSkills=()=>skillData.forEach(val=>{
      const el = document.createElement("div");
      el.className = "skill";
      el.innerHTML = `<div class="skill-info"><span>${val.name}</span><span>${val.percentage}%</span></div>
      <div class="skill-bar ${val.class}"></div>`;
      document.querySelector(".skills").append(el);
 })
-const addServices=()=>serviceData.map(val=>{
+const addServices=()=>serviceData.forEach(val=>{
      const el = document.createElement("a");
      el.href = val.link
      el.className = "service";
@@ -55,7 +31,7 @@ const addServices=()=>serviceData.map(val=>{
 })
 function addWorks(){
      const code = document.createElement("script");
-     worksData.map(val=>{
+     worksData.forEach(val=>{
           const el = document.createElement("a");
           el.href = val.img;
           el.setAttribute("data-fslightbox","mygallery");
@@ -72,6 +48,37 @@ function addWorks(){
      code.defer = true;
      document.body.appendChild(code);
 }
+const getTextContent = (item,key) => item.querySelector(key).textContent.trim();
+function addPosts(){
+     const xhr = new XMLHttpRequest();
+     xhr.onreadystatechange = () => {
+          if (xhr.readyState == XMLHttpRequest.DONE){
+               document.querySelector(".loading-txt").remove();
+               const items = [...xhr.responseXML.getElementsByTagName("item")].slice(0,5);
+               for(let i=0;i<items.length;i++){
+                    const item = items[i];
+                    if(!item) continue;
+                    const elem = document.createElement("div")
+                    elem.className = "blog-post";
+                    elem.innerHTML = `<h3><a href="${getTextContent(item,"link")}">${getTextContent(item,"title")}</a></h3>
+                    <p>${getTextContent(item,"description")}</p>
+                    <div class="details">
+                         <p class="info">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+                              ${new Date(getTextContent(item,"pubDate")).toDateString()}
+                         </p>
+                         <a class="more-btn" href="${getTextContent(item,"link")}">
+                              Read More
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+                         </a>
+                    </div>`
+                    document.querySelector(".posts").appendChild(elem)
+               }
+          }
+     }
+     xhr.open('GET', 'https://arsentech-blog.vercel.app/rss.xml', true);
+     xhr.send(null);
+}
 function isChristmas() {
      const today = new Date();
      const month = today.getMonth() + 1,day = today.getDate();
@@ -84,7 +91,7 @@ function init(){
      aboutPfp.src = isChristmas() ? christmasPfp : regularPfp;
      subscribePfp.src = isChristmas() ? christmasPfp : regularPfp;
      document.body.classList.toggle("christmas",isChristmas());
-     addSkills();addServices();addWorks();
+     addSkills();addServices();addWorks();addPosts();
 }
 function handleScrollSpy() {
      let currentSectionId = "";

@@ -7,6 +7,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ## 2.0.2 - 2025-12-21
 ### Added
 - In-page anchor menus (for Navbar clarity)
+- Blog Section
 ### Changed
 - Optimized some parts of JS Code
 
