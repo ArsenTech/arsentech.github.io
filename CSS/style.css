@@ -13,7 +13,7 @@ body{background: #f1f1f1; color: #202020;}
 .loader{width: 30px;height: 150px;background: #22b455;background: linear-gradient(45deg,#22b455,#1dd1a1);border-radius: 50px;margin: 10px;animation: loader 0.8s ease infinite;}
 .loader:nth-child(2){animation-delay:.1s;}.loader:nth-child(3){animation-delay:.2s;}.loader:nth-child(4){animation-delay:.3s;}.loader:nth-child(5){animation-delay:.4s;}.loader:nth-child(6){animation-delay:.5s;}.loader:nth-child(7){animation-delay:.6s;}.loader:nth-child(8){animation-delay:.7s;}
 .loader-hidden{animation: fadeOut 1s;-webkit-animation: fadeOut 1s;animation-fill-mode: forwards;}
-.navbar{background: 0 0;width: 100%;padding: 30px 0;top: 0;z-index: 999;transition: .3s ease-in-out;}
+.navbar{background: 0 0;width: 100%;padding: 30px 0;top: 0;z-index: 9999;transition: .3s ease-in-out;}
 .inner-width{max-width: 1300px;margin: auto;padding: 0 40px;}
 .navbar .inner-width{display: flex;align-items: center;justify-content: space-between;}
 .logo{width: 150px;height: 32px;background-image: url(/Files/arsentech-dark.svg);background-size: contain;}
@@ -37,6 +37,13 @@ body{background: #f1f1f1; color: #202020;}
 .sm a{font-size:26px;margin: 0 10px;}
 .sm a img{width: 100%;max-width: 26px;filter: invert(1);transition: .3s ease-in-out;}
 .sm a:hover img,.sm a:focus-within img{filter:invert(86%)sepia(62%)saturate(302%)hue-rotate(58deg)brightness(99%)contrast(105%);}
+.anchor{position: fixed;top: 0;right: 0;height: 100%;display: flex;justify-content: center;align-items: end;flex-direction: column;z-index: 999;gap: 12px;padding: 0 15px;background: transparent;}
+.anchor .marker{display:inline-block;width:20px;height: 20px;border-radius: 50%;border: 2px solid #b3ffc1;}
+.anchor .anchor-item:hover .marker, .anchor .anchor-item.active .marker{background: #b3ffc1;}
+.anchor .anchor-item{display: flex;justify-content: space-between;align-items: center;flex-direction: row-reverse;gap: 12px;transition: all .3s ease;}
+.anchor .anchor-item:hover a{visibility: visible;}
+.anchor.sticky .marker{border-color: #0B4B3A;}
+.anchor.sticky .anchor-item:hover .marker, .anchor.sticky .anchor-item.active .marker{background: #0B4B3A;}
 #home .buttons{margin-top: 60px;}
 #home .buttons a{display: inline-block;margin: 15px 30px;color: #fff;font-size: 16px;font-weight: 500;width: 180px;border: 1px solid #fff;padding: 15px 0;border-radius: 6px;transition: .3s ease-in-out;outline:0;}
 #home .buttons a:hover,#home .buttons a:focus-within,#home .buttons a:last-child{background-color: #204829;color: #fff;border-color: #204829;}
@@ -78,13 +85,13 @@ section.alt{background-color: #f1f1f1;}section.alt .section-title::after{border:
 .contact-form input::placeholder,.contact-form textarea::placeholder{color: #aaa}
 .emailZone,.nameZone{max-width: calc(50% - 10px);}
 .messageZone{min-height: 200px;resize: vertical;}
-.contact-form .btn{width: 180px;background-color: #f1f1f1;color: #0d5a45;font-size: 16px;border: 2px solid #1dd1a1;padding: 0;margin-left: auto;transition: .3s ease-in-out;cursor: pointer;}
+.contact-form .btn{width: 180px;background-color: #f1f1f1;color: #0d5a45;font-size: 16px;border: 2px solid #1dd1a1;padding: 0;margin-right: auto;transition: .3s ease-in-out;cursor: pointer;}
 .contact-form .btn:hover,.contact-form .btn:focus-within{background: #1dd1a1;}
 #site-footer{width: 100%;background: #204829;background: linear-gradient(#20482945,#20482945),url(../Files/backgrounds/bg.jpg) no-repeat;background: linear-gradient(#20482945,#20482945),url(../Files/backgrounds/bg.webp) no-repeat center;background-attachment: fixed;background-size: cover;color: #fff;padding: 80px 0;text-align: center;}
 .copyright{margin-bottom: 20px;font-size: 16px;}
 .copyright a{text-decoration: underline;font-size: 16px;color: #E8FDF7;font-weight: 500;transition: .3s linear;}
 .copyright a:hover,.copyright a:focus-within{color: #59facf;}
-.goTop{background: #22b455;bottom: 16px;right: 32px;width: 40px;height: 40px;border-radius: 10px;border: 2px solid #22b455;color: #fff;text-decoration: none;transition: all .3s;opacity: 0;cursor: auto;}
+.goTop{background: #22b455;bottom: 16px;right: 32px;width: 40px;height: 40px;border-radius: 10px;border: 2px solid #22b455;color: #fff;text-decoration: none;transition: all .3s;opacity: 0;cursor: auto;z-index: 99999;}
 .goTop img{width: 30px;filter: invert(1);height: 30px;}
 .goTop.active{cursor: pointer;bottom: 32px;opacity: 1;}
 .subscribe{display:flex;justify-content:center;align-items:center;padding:20px;border-radius:10px;background:#fff;box-shadow:0 5px 10px rgba(0,0,0,.5);z-index:999;bottom:16px;left:12px;animation:show_sub 1s ease forwards;}
