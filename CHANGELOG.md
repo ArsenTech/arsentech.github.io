@@ -4,7 +4,13 @@ All notable changes of my website will be documented here.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
-## [2.0.1] - 2024-12-15
+## 2.0.2 - 2025-12-21
+### Added
+- In-page anchor menus (for Navbar clarity)
+### Changed
+- Optimized some parts of JS Code
+
+## 2.0.1 - 2024-12-15
 ### Added
 - Subscribe Popup
 - Skip to Content Feature
@@ -14,7 +20,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - New Landing Page Button Colors
 - Other changes
 
-## [2.0.0] - 2023-03-04 (New Look)
+## 2.0.0 - 2023-03-04 (New Look)
 ### Added
 - Dark Mode support
 - `manifest.json`
@@ -30,7 +36,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Fixed
 - Fixed Some Spelling Errors
 
-## [1.5.0] - 2022-12-04
+## 1.5.0 - 2022-12-04
 ### Added
 - Loader, Background Overlay, Lazy Loading
 - Theme Color and Apple Touch Icon
@@ -44,7 +50,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Removed
 - Removed Other `[error-code].html` pages except the 404 page
 
-## [1.0.0] - 2021-01-15 (Rebirth)
+## 1.0.0 - 2021-01-15 (Rebirth)
 ### Re-initialized
 - Site header and footer with a new design
 - Homepage with sections: About, Services, Works, and Contact
@@ -57,7 +63,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Minifications, Image compressions, and Optimizations
 - Updated Design of a 404 Page and a `<noscript>` detection
 
-## [0.5.1] - 2020-12-03
+## 0.5.1 - 2020-12-03
 > [!NOTE]
 > It is a final stable version of the original v1 (now labeled v0.5 – Prototype version).
 > Website was deleted on 2020-12-23 due to lack of optimization and negative feedback
@@ -69,7 +75,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - General layout improvements
 - Minor styling consistency fixes
 
-## [0.5.0] - 2020-11-15
+## 0.5.0 - 2020-11-15
 > [!NOTE]
 > This version was initially called `v1`, but later relabeled as `v0.5.x` after website deletion in December 2020
 ### Initialized

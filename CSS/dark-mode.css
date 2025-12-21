@@ -12,7 +12,7 @@
 .dark .sticky .menu-toggler {color: #f1f1f1;}
 .dark .anchor {background: transparent;}
 .dark .anchor.sticky .marker{border-color: #b3ffc1;}
-.dark .anchor.sticky .anchor-item:hover .marker{background: #b3ffc1;}
+.dark :where(.anchor.sticky .anchor-item.active .marker,.anchor .anchor-item.active .marker,.anchor.sticky .anchor-item:hover .marker,.anchor .anchor-item:hover .marker){background: #b3ffc1 !important;}
 .dark section {background: #353b48;}
 .dark .section-title {color: #f1f1f1;}
 .dark .section-title::before {background: #f1f1f1;}

@@ -40,8 +40,7 @@
 - Dark Mode
 - Updated Lightbox (I'm using FSLightbox)
 - Other features from v0.5, v1.0, and v2.0
-## In Progress
-- Side Menus (Anchor navigation) for navbar clarity
+- In-page Side Menus (Anchor navigation) for navbar clarity
 ### Coming Soon
 - [ ] Interactive FAQ section
 - [ ] Projects Section
