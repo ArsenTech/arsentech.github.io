@@ -1,0 +1,38 @@
+[
+     {
+          "name": "Tutorials",
+          "desc": "This is Mostly important for All Windows, iOS, And Linux Users (Available in YouTube)",
+          "icon": "ant-design:laptop-outlined",
+          "link": "https://www.youtube.com/playlist?list=PLsOMVP9OgGeosVdpYLlVuNTa-iiOSvGHS"
+     },
+     {
+          "name": "Coding with ArsenTech",
+          "desc": "Coding Tutorials and Tips & tricks to become a Skilled Programmer",
+          "icon": "bx:bx-code-alt",
+          "link": "https://www.youtube.com/@Coding_With_ArsenTech"
+     },
+     {
+          "name": "Games",
+          "desc": "Games Made on Scratch by ArsenTech (Basic / Arcade Games)",
+          "icon": "ion:game-controller",
+          "link": "https://scratch.mit.edu/users/ArsenTech/"
+     },
+     {
+          "name": "Windows Experiments",
+          "desc": "Windows Test Videos Made By ArsenTech (Educational Purposes Only)",
+          "icon": "ion:hammer",
+          "link": "https://www.youtube.com/playlist?list=PLsOMVP9OgGerNCzsOFk1jnIlbXrv6nWrX"
+     },
+     {
+          "name": "Downloads",
+          "desc": "Download Windows Versions, Softwares and Some Files from My Collection",
+          "icon": "fa:download",
+          "link": "https://arsentech.github.io/downloads/"
+     },
+     {
+          "name": "Malware Testing",
+          "desc": "Malware Tests, Malware Battles, and Antivirus Tests",
+          "icon": "fa-solid:bug",
+          "link": "https://youtube.com/playlist?list=PLsOMVP9OgGeoAFJZdOofZQS3R0g5G57ot"
+     }
+]

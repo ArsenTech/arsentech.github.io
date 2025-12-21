@@ -1,0 +1,44 @@
+[
+     {
+          "img": "Images/Work/code.webp",
+          "name": "Programming",
+          "category": "Development, Programming",
+          "attr": "Photo by luis from Pexels",
+          "imgAlt": "coding"
+     },
+     {
+          "img": "Images/Work/wintuto.webp",
+          "name": "Tutorials",
+          "category": "Windows, Linux",
+          "attr": "Photo by Max DeRoin from Pexels",
+          "imgAlt": "keyboard"
+     },
+     {
+          "img": "Images/Work/lintuto.webp",
+          "name": "Windows Experiments",
+          "category": "Windows 10, Windows 7",
+          "attr": "Photo by Negative Space from Pexels",
+          "imgAlt": "computer"
+     },
+     {
+          "img": "Images/Work/downloads.webp",
+          "name": "Downloads",
+          "category": "Software, Wallpaper",
+          "attr": "Photo by Miguel Á. Padriñán from Pexels",
+          "imgAlt": "downloads"
+     },
+     {
+          "img": "Images/Work/virustest.webp",
+          "name": "Malware Testing",
+          "category": "Virus Test, Malware Test",
+          "attr": "Photo by Markus Spiske from Pexels",
+          "imgAlt": "matrix"
+     },
+     {
+          "img": "Images/Work/ios.webp",
+          "name": "ArsenTech Shorts",
+          "category": "Quick Tutorials, Tips and Tricks",
+          "attr": "Photo by Tracy Le Blanc from Pexels",
+          "imgAlt": "phone"
+     }
+]

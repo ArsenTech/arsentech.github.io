@@ -1,4 +1,5 @@
 const removeCss = ()=>document.querySelector("link[href='CSS/dark-mode.css']").remove();
+const getTextContent = (item,key) => item.querySelector(key).textContent.trim();
 function lazyCss(e) {const t = document.createElement( "link" );t.href = e, t.rel = "stylesheet", t.type = "text/css", t.media="screen", document.getElementsByTagName("head")[0].appendChild(t);}
 function handleScroll(scrlY, pageY, anchorY){navbar.classList.toggle("sticky",scrlY < window.scrollY);anchor.classList.toggle("sticky",window.scrollY > anchorY);gotop.classList.toggle("active",window.scrollY > pageY);}
 function toggleActive(){toggler.classList.toggle("active");navMenu.classList.toggle("active");}
@@ -13,24 +14,33 @@ function toggleMode(){
           localStorage.setItem("arsentech-theme", "dark");lazyCss("CSS/dark-mode.css");
      }
 }
-const addSkills=()=>skillData.forEach(val=>{
-     const el = document.createElement("div");
-     el.className = "skill";
-     el.innerHTML = `<div class="skill-info"><span>${val.name}</span><span>${val.percentage}%</span></div>
-     <div class="skill-bar ${val.class}"></div>`;
-     document.querySelector(".skills").append(el);
-})
-const addServices=()=>serviceData.forEach(val=>{
-     const el = document.createElement("a");
-     el.href = val.link
-     el.className = "service";
-     el.innerHTML = `<span class="iconify icon" data-icon="${val.icon}" data-inline="false"></span>
-     <h3>${val.name}</h3>
-     <p>${val.desc}</p>`;
-     document.querySelector(".services").append(el);
-})
-function addWorks(){
-     const code = document.createElement("script");
+const addSkills=async()=>{
+     const res = await fetch("/Data/skills.json")
+     const skillData = await res.json();
+     skillData.forEach(val=>{
+          const el = document.createElement("div");
+          el.className = "skill";
+          el.innerHTML = `<div class="skill-info"><span>${val.name}</span><span>${val.percentage}%</span></div>
+          <div class="skill-bar ${val.class}"></div>`;
+          document.querySelector(".skills").append(el);
+     })
+}
+const addServices=async()=>{
+     const res = await fetch("/Data/services.json");
+     const serviceData = await res.json();
+     serviceData.forEach(val=>{
+          const el = document.createElement("a");
+          el.href = val.link
+          el.className = "service";
+          el.innerHTML = `<span class="iconify icon" data-icon="${val.icon}" data-inline="false"></span>
+          <h3>${val.name}</h3>
+          <p>${val.desc}</p>`;
+          document.querySelector(".services").append(el);
+     })
+}
+const addWorks = async()=>{
+     const res = await fetch("/Data/works.json");
+     const worksData = await res.json(), code = document.createElement("script");
      worksData.forEach(val=>{
           const el = document.createElement("a");
           el.href = val.img;
@@ -48,7 +58,6 @@ function addWorks(){
      code.defer = true;
      document.body.appendChild(code);
 }
-const getTextContent = (item,key) => item.querySelector(key).textContent.trim();
 function addPosts(){
      const xhr = new XMLHttpRequest();
      xhr.onreadystatechange = () => {

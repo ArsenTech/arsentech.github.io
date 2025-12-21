@@ -1,0 +1,32 @@
+[
+     {
+          "name": "HTML",
+          "class": "html",
+          "percentage": 100
+     },
+     {
+          "name": "CSS and SCSS",
+          "class": "css",
+          "percentage": 100
+     },
+     {
+          "name": "Javascript",
+          "class": "js",
+          "percentage": 90
+     },
+     {
+          "name": "React JS",
+          "class": "react",
+          "percentage": 90
+     },
+     {
+          "name": "Next JS",
+          "class": "nextjs",
+          "percentage": 90
+     },
+     {
+          "name": "Tailwind",
+          "class": "tailwind",
+          "percentage": 100
+     }
+]
