@@ -37,7 +37,7 @@ body{background: #f1f1f1; color: #202020;}
 .sm a{font-size:26px;margin: 0 10px;}
 .sm a img{width: 100%;max-width: 26px;filter: invert(1);transition: .3s ease-in-out;}
 .sm a:hover img,.sm a:focus-within img{filter:invert(86%)sepia(62%)saturate(302%)hue-rotate(58deg)brightness(99%)contrast(105%);}
-.anchor{position: fixed;top: 0;right: 0;height: 100%;display: flex;justify-content: center;align-items: end;flex-direction: column;z-index: 999;gap: 12px;padding-left: 16px; padding-right: 8px;background: transparent;}
+.anchor{position: fixed;top: 0;right: 0;height: 100%;display: flex;justify-content: center;align-items: end;flex-direction: column;z-index: 999;gap: 12px;padding-right: 7.5px;background: transparent;}
 .anchor .marker{display:inline-block;width:20px;height: 20px;border-radius: 50%;border: 2px solid #b3ffc1;}
 .anchor .anchor-item:hover .marker, .anchor .anchor-item.active .marker{background: #b3ffc1;}
 .anchor .anchor-item{display: flex;justify-content: space-between;align-items: center;flex-direction: row-reverse;gap: 12px;}
