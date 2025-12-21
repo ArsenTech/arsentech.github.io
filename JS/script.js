@@ -20,8 +20,17 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e =
 subClose.addEventListener('click',()=>subPopup.classList.add('hide'))
 lazyCss("https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;700&display=swap");init();
 const observer = new IntersectionObserver(entries=>entries.forEach(entry=>{
-     if(entry.isIntersecting)
-          anchors.forEach(link=>
-               link.classList.toggle("active",link.getAttribute("href")===`#${entry.target.id}`))
-}),{root: null, threshold: .6})
-sections.forEach(section=>observer.observe(section))
+     if(entry.isIntersecting) anchors.forEach(link=>link.classList.toggle("active",link.getAttribute("href")===`#${entry.target.id}`))
+}),{root: null, threshold: .6}), mq = window.matchMedia("(max-width: 980px)");
+function handleBreakpoint(e) {
+     if (e.matches) {
+          observer.disconnect();
+          window.addEventListener("scroll", handleScrollSpy);
+          handleScrollSpy();
+     } else {
+          window.removeEventListener("scroll", handleScrollSpy);
+          sections.forEach(section => observer.observe(section));
+     }
+}
+mq.addEventListener("change", handleBreakpoint);
+handleBreakpoint(mq);

@@ -86,3 +86,13 @@ function init(){
      document.body.classList.toggle("christmas",isChristmas());
      addSkills();addServices();addWorks();
 }
+function handleScrollSpy() {
+     let currentSectionId = "";
+     sections.forEach(section => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.offsetHeight;
+          if (window.scrollY >= sectionTop - sectionHeight / 3) currentSectionId = section.id;
+     });
+     anchors.forEach(link =>
+          link.classList.toggle("active",link.getAttribute("href") === `#${currentSectionId}`));
+}
