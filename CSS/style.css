@@ -42,8 +42,8 @@ body{background: #f1f1f1; color: #202020;}
 .anchor .anchor-item:hover .marker, .anchor .anchor-item.active .marker{background: #b3ffc1;}
 .anchor .anchor-item{display: flex;justify-content: space-between;align-items: center;flex-direction: row-reverse;gap: 12px;transition: all .3s ease;}
 .anchor .anchor-item:hover a{visibility: visible;}
-.anchor.sticky .marker{border-color: #0B4B3A;}
-.anchor.sticky .anchor-item:hover .marker, .anchor.sticky .anchor-item.active .marker{background: #0B4B3A;}
+.anchor.sticky .marker{border-color: #138164;box-shadow: 0 0 6px 4px #fafafa;}
+.anchor.sticky .anchor-item:hover .marker, .anchor.sticky .anchor-item.active .marker{background: #138164;}
 #home .buttons{margin-top: 60px;}
 #home .buttons a{display: inline-block;margin: 15px 30px;color: #fff;font-size: 16px;font-weight: 500;width: 180px;border: 1px solid #fff;padding: 15px 0;border-radius: 6px;transition: .3s ease-in-out;outline:0;}
 #home .buttons a:hover,#home .buttons a:focus-within,#home .buttons a:last-child{background-color: #204829;color: #fff;border-color: #204829;}
