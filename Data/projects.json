@@ -1,0 +1,13 @@
+[
+     {
+          "name": "Idea Checklist",
+          "description": "A checklist app for Tech YouTube Streamers and other people built using React, Tauri, and ShadCN UI",
+          "logo": "Images/projects/idea-checklist.webp",
+          "license": {
+               "name": "MIT license",
+               "url": "https://github.com/ArsenTech/idea-checklist/blob/main/LICENSE.md"
+          },
+          "github-link": "https://github.com/ArsenTech/idea-checklist",
+          "contribution-link": "https://github.com/ArsenTech/idea-checklist/blob/main/CONTRIBUTING.md"
+     }
+]

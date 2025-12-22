@@ -43,6 +43,11 @@
 .dark .posts .blog-post .details .more-btn:hover{background: rgb(29, 209, 161,.25)}
 .dark .posts .blog-post h3 a:hover{color: #1dd1a1;}
 .dark .posts .blog-post h3 a{color: #fff;}
+.dark .projects .project{background: #353b48;border-color: #252a33;}
+.dark .projects .project .details .license a{color: #1dd1a1;}
+.dark .projects .project .details .license a:hover{color: white;}
+.dark .projects .project .details .actions a{background: #1dd1a1;color: #202020;}
+.dark .projects .project .details .actions a:first-child:hover{background: #53ffd1;color: #202020;}
 @media screen and (max-width:980px){
      .dark .navbar-menu{background-color:#2f343f;}
      .dark .sticky .navbar-menu{background-color:#353b48;}

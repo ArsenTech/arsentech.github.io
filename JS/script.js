@@ -1,5 +1,4 @@
-const gotop = document.querySelector(".goTop"),
-navbar = document.querySelector(".navbar"),navMenu = document.querySelector(".navbar-menu"),
+const gotop = document.querySelector(".goTop"),navbar = document.querySelector(".navbar"),navMenu = document.querySelector(".navbar-menu"),
 toggler = document.querySelector(".menu-toggler"),modeToggler = document.querySelector("#icon"),
 getMode = localStorage.getItem("arsentech-theme"),subClose = document.querySelector('#sub-close'),
 subPopup = document.querySelector('.subscribe'),anchor = document.querySelector(".anchor"),

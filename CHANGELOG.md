@@ -8,6 +8,7 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Added
 - In-page anchor menus (for Navbar clarity)
 - Blog Section
+- Projects Section
 ### Changed
 - Optimized some parts of JS Code
 - Converted Data into a static JSON file

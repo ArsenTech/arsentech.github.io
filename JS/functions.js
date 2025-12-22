@@ -58,6 +58,28 @@ const addWorks = async()=>{
      code.defer = true;
      document.body.appendChild(code);
 }
+const addProjects = async()=>{
+     const res = await fetch("/Data/projects.json");
+     const projectsData = await res.json();
+     projectsData.forEach(project=>{
+          const elem = document.createElement("div")
+          elem.className = "project";
+          elem.innerHTML = `<img src="${project.logo}" alt="${project.name}" width="170" height="170">
+          <div class="details">
+               <h3>${project.name}</h3>
+               <p class="desc">${project.description}</p>
+               <p class="license">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scale-icon lucide-scale"><path d="M12 3v18"/><path d="m19 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M3 7h1a17 17 0 0 0 8-2 17 17 0 0 0 8 2h1"/><path d="m5 8 3 8a5 5 0 0 1-6 0zV7"/><path d="M7 21h10"/></svg>
+                    <a href="${project.license.url}">${project.license.name}</a>
+               </p>
+               <div class="actions">
+                    <a href="${project["github-link"]}" aria-label="${project.name}'s GitHub Repository">Learn More</a>
+                    <a href="${project["contribution-link"]}">Get Involved</a>
+               </div>
+          </div>`
+          document.querySelector(".projects").appendChild(elem)
+     })
+}
 function addPosts(){
      const xhr = new XMLHttpRequest();
      xhr.onreadystatechange = () => {
@@ -99,7 +121,7 @@ function init(){
      aboutPfp.src = isChristmas() ? christmasPfp : regularPfp;
      subscribePfp.src = isChristmas() ? christmasPfp : regularPfp;
      document.body.classList.toggle("christmas",isChristmas());
-     addSkills();addServices();addWorks();addPosts();
+     addSkills();addServices();addWorks();addPosts();addProjects();
 }
 function handleScrollSpy() {
      let currentSectionId = "";
