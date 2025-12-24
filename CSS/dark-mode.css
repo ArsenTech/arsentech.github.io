@@ -36,8 +36,8 @@
 .dark #blog .btn {background-color: #2f343f;color: #1dd1a1}
 .dark .subscribe{background: #353b48;}
 .dark .subscribe p{color: #afafaf;}
-.dark .subscribe a{background: #1dd1a1;color: #353b48;}
-.dark .subscribe a:hover{background: #92e5a1;}
+.dark .subscribe a,.dark .other-channels .channels .channel .info a{background: #1dd1a1;color: #353b48;}
+.dark .subscribe a:hover,.dark .other-channels .channels .channel .info a:hover{background: #92e5a1;}
 .dark .subscribe button{color: #fff;}
 .dark .posts .blog-post .details .more-btn{color: white;}
 .dark .posts .blog-post .details .more-btn:hover{background: rgb(29, 209, 161,.25)}

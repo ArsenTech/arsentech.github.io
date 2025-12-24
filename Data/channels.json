@@ -1,0 +1,20 @@
+[
+     {
+          "name": "Coding with ArsenTech",
+          "description": "A channel for learners who want clean, high-quality coding tutorials without the noise.",
+          "image-alias": "coding",
+          "url": "https://www.youtube.com/channel/UCl52C6cFR1McvN1fAdsxdkA"
+     },
+     {
+          "name": "ArsenTech Shorts",
+          "description": "Tech Tutorials, Helpful Tips and Tricks, and other Tech-related videos in a Shorts format",
+          "image-alias": "shorts",
+          "url": "https://www.youtube.com/channel/UCvLf-YuBTmfSrB47_YARHsA"
+     },
+     {
+          "name": "More ArsenTech",
+          "description": "An ArsenTech's alt channel — home of the randomness. Here you'll see probably other random stuff",
+          "image-alias": "misc",
+          "url": "https://www.youtube.com/channel/UChjvr_TFywsE23UPlwd-wFQ"
+     }
+]

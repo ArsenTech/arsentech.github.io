@@ -43,9 +43,9 @@
 - In-page Side Menus (Anchor navigation) for navbar clarity
 - Blog Section
 - Projects Section
+- The "My Other Channels" section, including a link to subscribe to other channels
 ### Coming Soon
 - [ ] Interactive FAQ section
-- [ ] The "My Other Channels" section, including a link to subscribe to other channels
 - [ ] Cache implementation for GitHub pages
 
 ## Website Speed

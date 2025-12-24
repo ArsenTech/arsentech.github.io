@@ -80,15 +80,29 @@ const addProjects = async()=>{
           document.querySelector(".projects").appendChild(elem)
      })
 }
+const addChannels = async()=>{
+     const res = await fetch("/Data/channels.json");
+     const channelsData = await res.json();
+     channelsData.forEach(channel=>{
+          const imgName = isChristmas() ? "pfp-christmas.webp" : "pfp.webp"
+          const elem = document.createElement("div")
+          elem.className = "channel";
+          elem.innerHTML = `<img src="Images/profile-pics/${channel['image-alias']}/${imgName}" alt="${channel.name}" width="100" height="100"/>
+          <div class="info">
+               <h3>${channel.name}</h3>
+               <p>${channel.description}</p>
+               <a href="${channel.url}?sub_confirmation=1">Subscribe</a>
+          </div>`
+          document.querySelector(".channels").appendChild(elem)
+     })
+}
 function addPosts(){
      const xhr = new XMLHttpRequest();
      xhr.onreadystatechange = () => {
           if (xhr.readyState == XMLHttpRequest.DONE){
                document.querySelector(".loading-txt").remove();
                const items = [...xhr.responseXML.getElementsByTagName("item")].slice(0,5);
-               for(let i=0;i<items.length;i++){
-                    const item = items[i];
-                    if(!item) continue;
+               items.forEach(item=>{
                     const elem = document.createElement("div")
                     elem.className = "blog-post";
                     elem.innerHTML = `<h3><a href="${getTextContent(item,"link")}">${getTextContent(item,"title")}</a></h3>
@@ -103,11 +117,10 @@ function addPosts(){
                          </a>
                     </div>`
                     document.querySelector(".posts").appendChild(elem)
-               }
+               });
           }
      }
-     xhr.open('GET', 'https://arsentech-blog.vercel.app/rss.xml', true);
-     xhr.send(null);
+     xhr.open('GET', 'https://arsentech-blog.vercel.app/rss.xml', true);xhr.send(null);
 }
 function isChristmas() {
      const today = new Date();
@@ -121,7 +134,7 @@ function init(){
      aboutPfp.src = isChristmas() ? christmasPfp : regularPfp;
      subscribePfp.src = isChristmas() ? christmasPfp : regularPfp;
      document.body.classList.toggle("christmas",isChristmas());
-     addSkills();addServices();addWorks();addPosts();addProjects();
+     addSkills();addServices();addWorks();addPosts();addProjects();addChannels();
 }
 function handleScrollSpy() {
      let currentSectionId = "";
