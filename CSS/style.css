@@ -90,7 +90,7 @@ section.alt{background-color: #f1f1f1;}section.alt .section-title::after{border:
 .emailZone,.nameZone{max-width: calc(50% - 10px);}
 .messageZone{min-height: 200px;resize: vertical;}
 .contact-form .btn, #blog .btn{width: 180px;color: #0d5a45;font-size: 16px;border: 2px solid #1dd1a1;padding: 0;margin-right: auto;transition: .3s ease-in-out;cursor: pointer;}
-.contact-form .btn{background-color: #fff;}
+.contact-form .btn{background-color: #f1f1f1;}
 .contact-form .btn:hover,.contact-form .btn:focus-within, #blog .btn:hover, #blog .btn:focus-within{background: #1dd1a1;}
 #site-footer{width: 100%;background: #204829;background: linear-gradient(#20482945,#20482945),url(../Images/backgrounds/bg.jpg) no-repeat;background: linear-gradient(#20482945,#20482945),url(../Images/backgrounds/bg.webp) no-repeat center;background-attachment: fixed;background-size: cover;color: #fff;padding: 80px 0;text-align: center;}
 .copyright{margin-bottom: 20px;font-size: 16px;}
