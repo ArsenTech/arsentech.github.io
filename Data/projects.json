@@ -7,7 +7,18 @@
                "name": "MIT license",
                "url": "https://github.com/ArsenTech/idea-checklist/blob/main/LICENSE.md"
           },
-          "github-link": "https://github.com/ArsenTech/idea-checklist",
+          "link": "https://github.com/ArsenTech/idea-checklist",
           "contribution-link": "https://github.com/ArsenTech/idea-checklist/blob/main/CONTRIBUTING.md"
+     },
+     {
+          "name": "Creations stats",
+          "description": "A Github Action that generates user's portfolio stats (Repositories and Gists). Perfect for profile readme customization! ",
+          "logo": "Images/projects/creations-stats.webp",
+          "license": {
+               "name": "MIT license",
+               "url": "https://github.com/ArsenTech/creations-stats-workflow/blob/main/LICENSE.md"
+          },
+          "link": "https://github.com/marketplace/actions/creations-stats",
+          "contribution-link": "https://github.com/ArsenTech/creations-stats-workflow/blob/main/CONTRIBUTING.md"
      }
 ]

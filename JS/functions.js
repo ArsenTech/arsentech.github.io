@@ -73,7 +73,7 @@ const addProjects = async()=>{
                     <a href="${project.license.url}">${project.license.name}</a>
                </p>
                <div class="actions">
-                    <a href="${project["github-link"]}" aria-label="${project.name}'s GitHub Repository">Learn More</a>
+                    <a href="${project["link"]}" aria-label="${project.name}'s GitHub Repository">Learn More</a>
                     <a href="${project["contribution-link"]}">Get Involved</a>
                </div>
           </div>`
