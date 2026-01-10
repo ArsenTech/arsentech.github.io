@@ -14,7 +14,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![project_license][license-shield]][license-url]
 
-![commits since latest release][commits-since-shield]
 [![Issues][issues-shield]][issues-url]
 ![GitHub Created At][created-at-shield]
 ![GitHub repo size][repo-size-shield]
@@ -106,7 +105,6 @@ Distributed under the MIT License. See [LICENSE.md][license-url] for more inform
 [contributing-url]: https://github.com/ArsenTech/arsentech.github.io/blob/main/CONTRIBUTING.md
 [changelog-url]: https://github.com/ArsenTech/arsentech.github.io/blob/main/CHANGELOG.md
 [website-url]: https://arsentech.github.io
-[commits-since-shield]: https://img.shields.io/github/commits-since/ArsenTech/creations-stats-workflow/latest?color=%2322b455&label=Commits%20since%20latest%20version
 
 <!-- Languages -->
 [html-shield]:https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
