@@ -4,7 +4,7 @@
           "description": "A checklist app for Tech YouTube Streamers and other people built using React, Tauri, and ShadCN UI",
           "logo": "Images/projects/idea-checklist.webp",
           "license": {
-               "name": "MIT license",
+               "name": "MIT License",
                "url": "https://github.com/ArsenTech/idea-checklist/blob/main/LICENSE.md"
           },
           "link": "https://github.com/ArsenTech/idea-checklist",
@@ -12,13 +12,24 @@
      },
      {
           "name": "Creations stats",
-          "description": "A Github Action that generates user's portfolio stats (Repositories and Gists). Perfect for profile readme customization! ",
+          "description": "A Github Action that generates user's portfolio stats (Repositories and Gists). Perfect for profile readme customization!",
           "logo": "Images/projects/creations-stats.webp",
           "license": {
-               "name": "MIT license",
+               "name": "MIT License",
                "url": "https://github.com/ArsenTech/creations-stats-workflow/blob/main/LICENSE.md"
           },
           "link": "https://github.com/marketplace/actions/creations-stats",
           "contribution-link": "https://github.com/ArsenTech/creations-stats-workflow/blob/main/CONTRIBUTING.md"
+     },
+     {
+          "name": "ClamAV GUI",
+          "description": "A GUI for ClamAV Antivirus that makes the Antivirus itself look professional and work exactly like ClamAV",
+          "logo": "Images/projects/clamav-gui.webp",
+          "license": {
+               "name": "GPL-3.0 License",
+               "url": "https://github.com/ArsenTech/clamav-gui/blob/main/LICENSE.md"
+          },
+          "link": "https://github.com/ArsenTech/clamav-gui",
+          "contribution-link": "https://github.com/ArsenTech/clamav-gui/blob/main/docs/CONTRIBUTING.md"
      }
 ]
