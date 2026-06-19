@@ -4,6 +4,7 @@ All notable changes of my website will be documented here.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+
 ## 2.0.2 - 2025-12-21
 ### Added
 - In-page anchor menus (for Navbar clarity)
@@ -14,6 +15,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Optimized some parts of JS Code
 - Converted Data into a static JSON file
 
+---
+
 ## 2.0.1 - 2024-12-15
 ### Added
 - Subscribe Popup
@@ -23,6 +26,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Colorful Logo on Mouse Over
 - New Landing Page Button Colors
 - Other changes
+
+---
 
 ## 2.0.0 - 2023-03-04 (New Look)
 ### Added
@@ -40,6 +45,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Fixed
 - Fixed Some Spelling Errors
 
+---
+
 ## 1.5.0 - 2022-12-04
 ### Added
 - Loader, Background Overlay, Lazy Loading
@@ -54,6 +61,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Removed
 - Removed Other `[error-code].html` pages except the 404 page
 
+---
+
 ## 1.0.0 - 2021-01-15 (Rebirth)
 ### Re-initialized
 - Site header and footer with a new design
@@ -67,6 +76,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - Minifications, Image compressions, and Optimizations
 - Updated Design of a 404 Page and a `<noscript>` detection
 
+---
+
 ## 0.5.1 - 2020-12-03
 > [!NOTE]
 > It is a final stable version of the original v1 (now labeled v0.5 – Prototype version).
@@ -78,6 +89,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 ### Fixed
 - General layout improvements
 - Minor styling consistency fixes
+
+---
 
 ## 0.5.0 - 2020-11-15
 > [!NOTE]
