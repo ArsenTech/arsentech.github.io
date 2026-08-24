@@ -31,5 +31,16 @@
           },
           "link": "https://github.com/ArsenTech/clamav-gui",
           "contribution-link": "https://github.com/ArsenTech/clamav-gui/blob/main/docs/CONTRIBUTING.md"
+     },
+     {
+          "name": "I18N Translator",
+          "description": "A Universal Translator that helps you localize and translate some apps into your native language.",
+          "logo": "Images/projects/i18n-translator.webp",
+          "license": {
+               "name": "Apache-2.0 license",
+               "url": "https://github.com/ArsenTech/i18n-translator/blob/main/LICENSE"
+          },
+          "link": "https://github.com/ArsenTech/i18n-translator",
+          "contribution-link": "https://github.com/ArsenTech/i18n-translator/blob/main/docs/CONTRIBUTING.md"
      }
 ]
