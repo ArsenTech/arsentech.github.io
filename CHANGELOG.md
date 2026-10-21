@@ -4,6 +4,10 @@ All notable changes of my website will be documented here.
 This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ---
+## 2.0.3 - 2026-10-21
+### Changed
+- Changed the site background to an Aero version
+- Changed each channel profile pics into an aero version
 
 ## 2.0.2 - 2025-12-21
 ### Added
