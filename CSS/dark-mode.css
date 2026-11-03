@@ -23,10 +23,10 @@
 .dark .skill-bar::after {background-color: #1dd1a1;}
 .dark section.alt {background-color: #2f343f;}
 .dark section.alt .section-title::after {border-color: #2f343f;}
-.dark .service {border-color: #1dd1a1;color: #1dd1a1;}
-.dark .service .icon {color: #1dd1a1;}
-.dark .service:hover, .dark .service:focus {background-color: #1dd1a1;color: #2f343f;}
-.dark .service:hover .icon, .dark .service:focus .icon {color: #2f343f;}
+.dark .work {border-color: #1dd1a1;color: #1dd1a1;}
+.dark .work .icon {color: #1dd1a1;}
+.dark .work:hover, .dark .work:focus {background-color: #1dd1a1;color: #2f343f;}
+.dark .work:hover .icon, .dark .work:focus .icon {color: #2f343f;}
 .dark .contact-info .item {color: #2f343f;background-color: #f1f1f1;}
 .dark .contact-info .item:hover, .dark .contact-info .item:focus {background-color: #1dd1a1;}
 .dark .contact-form input, .dark .contact-form textarea {background-color: #f1f1f1;color: #2f343f;}

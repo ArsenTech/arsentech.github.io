@@ -1,44 +1,38 @@
 [
      {
-          "img": "Images/Work/code.webp",
-          "name": "Programming",
-          "category": "Development, Programming",
-          "attr": "Photo by luis from Pexels",
-          "imgAlt": "coding"
-     },
-     {
-          "img": "Images/Work/wintuto.webp",
           "name": "Tutorials",
-          "category": "Windows, Linux",
-          "attr": "Photo by Max DeRoin from Pexels",
-          "imgAlt": "keyboard"
+          "desc": "This is Mostly important for All Windows, iOS, And Linux Users (Available in YouTube)",
+          "icon": "ant-design:laptop-outlined",
+          "link": "https://www.youtube.com/playlist?list=PLsOMVP9OgGeosVdpYLlVuNTa-iiOSvGHS"
      },
      {
-          "img": "Images/Work/lintuto.webp",
+          "name": "Coding with ArsenTech",
+          "desc": "Coding Tutorials and Tips & tricks to become a Skilled Programmer",
+          "icon": "bx:bx-code-alt",
+          "link": "https://www.youtube.com/@Coding_With_ArsenTech"
+     },
+     {
+          "name": "Games",
+          "desc": "Games Made on Scratch by ArsenTech (Basic / Arcade Games)",
+          "icon": "ion:game-controller",
+          "link": "https://scratch.mit.edu/users/ArsenTech/"
+     },
+     {
           "name": "Windows Experiments",
-          "category": "Windows 10, Windows 7",
-          "attr": "Photo by Negative Space from Pexels",
-          "imgAlt": "computer"
+          "desc": "Windows Test Videos Made By ArsenTech (Educational Purposes Only)",
+          "icon": "ion:hammer",
+          "link": "https://www.youtube.com/playlist?list=PLsOMVP9OgGerNCzsOFk1jnIlbXrv6nWrX"
      },
      {
-          "img": "Images/Work/downloads.webp",
           "name": "Downloads",
-          "category": "Software, Wallpaper",
-          "attr": "Photo by Miguel Á. Padriñán from Pexels",
-          "imgAlt": "downloads"
+          "desc": "Download Windows Versions, Softwares and Some Files from My Collection",
+          "icon": "fa:download",
+          "link": "https://arsentech.github.io/downloads/"
      },
      {
-          "img": "Images/Work/virustest.webp",
           "name": "Malware Testing",
-          "category": "Virus Test, Malware Test",
-          "attr": "Photo by Markus Spiske from Pexels",
-          "imgAlt": "matrix"
-     },
-     {
-          "img": "Images/Work/ios.webp",
-          "name": "ArsenTech Shorts",
-          "category": "Quick Tutorials, Tips and Tricks",
-          "attr": "Photo by Tracy Le Blanc from Pexels",
-          "imgAlt": "phone"
+          "desc": "Malware Tests, Malware Battles, and Antivirus Tests",
+          "icon": "fa-solid:bug",
+          "link": "https://youtube.com/playlist?list=PLsOMVP9OgGeoAFJZdOofZQS3R0g5G57ot"
      }
 ]

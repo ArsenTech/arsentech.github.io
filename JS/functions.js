@@ -25,38 +25,18 @@ const addSkills=async()=>{
           document.querySelector(".skills").append(el);
      })
 }
-const addServices=async()=>{
-     const res = await fetch("/Data/services.json");
-     const serviceData = await res.json();
-     serviceData.forEach(val=>{
+const addWorks=async()=>{
+     const res = await fetch("/Data/works.json");
+     const workData = await res.json();
+     workData.forEach(val=>{
           const el = document.createElement("a");
           el.href = val.link
-          el.className = "service";
+          el.className = "work";
           el.innerHTML = `<span class="iconify icon" data-icon="${val.icon}" data-inline="false"></span>
           <h3>${val.name}</h3>
           <p>${val.desc}</p>`;
-          document.querySelector(".services").append(el);
-     })
-}
-const addWorks = async()=>{
-     const res = await fetch("/Data/works.json");
-     const worksData = await res.json(), code = document.createElement("script");
-     worksData.forEach(val=>{
-          const el = document.createElement("a");
-          el.href = val.img;
-          el.setAttribute("data-fslightbox","mygallery");
-          el.className = "work";
-          el.innerHTML = `<img src="${val.img}" alt="${val.imgAlt}" loading="lazy" width="392" height="266">
-          <div class="info">
-             <h3>${val.name}</h3>
-             <div class="cat">${val.category}</div>
-             <p class="attr">${val.attr}</p>
-          </div>`;
           document.querySelector(".works").append(el);
-     });
-     code.src = "JS/fslightbox.js";
-     code.defer = true;
-     document.body.appendChild(code);
+     })
 }
 const addProjects = async()=>{
      const res = await fetch("/Data/projects.json");
@@ -134,7 +114,7 @@ function init(){
      aboutPfp.src = isChristmas() ? christmasPfp : regularPfp;
      subscribePfp.src = isChristmas() ? christmasPfp : regularPfp;
      document.body.classList.toggle("christmas",isChristmas());
-     addSkills();addServices();addWorks();addPosts();addProjects();addChannels();
+     addSkills();addWorks();addPosts();addProjects();addChannels();
 }
 function handleScrollSpy() {
      let currentSectionId = "";
