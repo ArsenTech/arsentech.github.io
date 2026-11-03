@@ -50,9 +50,9 @@
 - [ ] Cache implementation for GitHub pages
 
 ## Website Speed
-- **Google PageSpeed Insights Score**: 100 on Mobile, 100 on Desktop
-- **Pingdom Website Speed Test Score**: 81
-- **GTMetrix Score**: Performance - 100%, Structure - 99%
+- **Google PageSpeed Insights Score**: 98 on Mobile, 100 on Desktop
+- **Pingdom Website Speed Test Score**: 85
+- **GTMetrix Score**: Performance - 95%, Structure - 99%
 
 ## Built with
 - [![HTML][html-shield]][html-url]
