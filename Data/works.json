@@ -27,7 +27,7 @@
           "name": "Downloads",
           "desc": "Download Windows Versions, Softwares and Some Files from My Collection",
           "icon": "fa:download",
-          "link": "https://arsentech.github.io/downloads/"
+          "link": "https://arsentech-yt.vercel.app/downloads/"
      },
      {
           "name": "Malware Testing",

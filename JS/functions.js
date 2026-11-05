@@ -100,7 +100,7 @@ function addPosts(){
                });
           }
      }
-     xhr.open('GET', 'https://arsentech-blog.vercel.app/rss.xml', true);xhr.send(null);
+     xhr.open('GET', 'https://arsentech-yt.vercel.app/rss.xml', true);xhr.send(null);
 }
 function isChristmas() {
      const today = new Date();
