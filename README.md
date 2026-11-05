@@ -45,9 +45,7 @@
 - Blog Section
 - Projects Section
 - The "My Other Channels" section, including a link to subscribe to other channels
-### Coming Soon
-- [ ] Interactive FAQ section
-- [ ] Cache implementation for GitHub pages
+- Others on https://arsentech-yt.vercel.app
 
 ## Website Speed
 - **Google PageSpeed Insights Score**: 98 on Mobile, 100 on Desktop
