@@ -4,10 +4,9 @@ compress_html:
   comments: all 
     
 exclude:
-  - CONTRIBUTING.md
   - LICENSE.md
   - README.md
-  - CODE_OF_CONDUCT.md
+  - docs/*
   - .vscode/*
   - .github/*
   
